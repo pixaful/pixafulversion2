@@ -1,0 +1,47 @@
+---
+label: blog-template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: Description
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: twittertitle
+  label: twittertitle
+- type: text
+  name: twitterdescription
+  label: twitterdescription
+- type: text
+  name: ogtitle
+  label: ogtitle
+- type: text
+  name: ogdescription
+  label: ogdescription
+- name: featured_image
+  type: file
+  config:
+    maxSize: 250
+  label: featured image
+- name: webp_version
+  type: text
+  config:
+    required: false
+  label: WebP Version
+  description: Enter url to webp version
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: summary
+pages:
+- site/content/blog/static-site-generators.md
