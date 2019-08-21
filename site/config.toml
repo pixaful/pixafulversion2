@@ -1,7 +1,43 @@
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
-title = "My new Victor-Hugo site"
+title = "Pixaful Version 2"
+[[menu.mainmenu]]
+identifyer = "Blog"
+name = "Blog"
+url = "/blog"
+weight = 2
+[[menu.mainmenu]]
+identifyer = "home"
+name = "Home"
+url = "/"
+weight = 1
+[params]
+cloudinary_base_url = "https://res.cloudinary.com/pixaful/image/upload"
+uglyurls = true
+url = "blogs/tempus"
+[permalinks]
+post = ":filename"
+[[headers]]
+for = "/*"
+[headers.values]
+X-Frame-Options = "DENY"
+X-XSS-Protection = "1; mode=block"
+cache-control = "\tmax-age=0,\n\tno-cache,\n\tno-store,\n\tmust-revalidate"
+[[headers]]
+for = "*.js"
+[headers.values]
+Cache-Control = "public, max-age=604800"
+[[headers]]
+for = "*.css"
+[headers.values]
+Cache-Control = "public, max-age=604800"
+[[headers]]
+for = "*.png"
+[headers.values]
+Cache-Control = "public, max-age=604800"
+
+
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
