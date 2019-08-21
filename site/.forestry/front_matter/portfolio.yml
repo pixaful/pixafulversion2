@@ -1,0 +1,30 @@
+---
+label: Portfolio
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: file
+  name: featured_image
+  label: featured_image
+- type: text
+  name: ogtitle
+  label: ogtitle
+- type: text
+  name: ogdescription
+  label: ogdescription
+- type: text
+  name: twittertitle
+  label: twittertitle
+- type: text
+  name: twitterdescription
+  label: twitterdescription
+- name: sideheading
+  type: text
+  config:
+    required: false
+  label: Side Heading
