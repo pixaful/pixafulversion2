@@ -2,7 +2,11 @@
   <main class="site-content">
     <div class="intro">
       <div class="image">
-        <img src="https://res.cloudinary.com/pixaful/image/upload/v1565554912/hayden-tomas-large_a3xgxr.png">
+        <picture>
+          <source width="533" height="603" srcset="https://res.cloudinary.com/pixaful/image/upload/w_533/v1565554912/hayden-tomas-large_a3xgxr.webp" type="image/webp" />
+          <source width="533" height="603" srcset="https://res.cloudinary.com/pixaful/image/upload/w_533/v1565554912/hayden-tomas-large_a3xgxr.png" type="image/png" />
+          <img width="533" height="603" src="https://res.cloudinary.com/pixaful/image/upload/w_533/v1565554912/hayden-tomas-large_a3xgxr.png" alt="Hayden Tomas - Front-end website developer" />
+     </picture>
       </div>
      <div class="text">
         <h1>Hayden Tomas Website Developer</h1>
@@ -42,30 +46,27 @@
  
   <div class="newsitems">
     <div class="owl-carousel owl-theme">
+        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "blog") }}
+        {{ range .Paginator.Pages }}
       <div class="item">
         <div class="post">
-          <div class="image-box"><a href="#"><img src="https://via.placeholder.com/650"></a></div>
+          <div class="image-box"><a href="{{.URL}}">
+              <picture>
+                  <source width="351" height="234"
+                       srcset="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.webp_version }}" type="image/webp">
+                  <source width="351" height="234"
+                       srcset="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.featured_image }}"
+                       type="image/jpeg">
+                  <img width="351" height="234"
+                       src="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.featured_image }}" alt="{{.Title}}" />
+             </picture>
+          </a></div>
        <span class="tagged">Development</span>
-        <h4><a href="#">How to craft the perfect web developer portfolio</a></h4>
-        <p>This year we put together some of our favorite items we either use on a daily basis or have on our own wish list. Grab something for yourself or a special creative in your life!</p>
+        <h4><a href="{{.URL}}">{{.Title}}</a></h4>
+        {{.Summary}}
       </div>
       </div>
-      <div class="item">
-        <div class="post">
-          <div class="image-box"><a href="#"><img src="https://via.placeholder.com/650"></a></div>
-       <span class="tagged">Development</span>
-        <h4><a href="#">How to craft the perfect web developer portfolio</a></h4>
-        <p>This year we put together some of our favorite items we either use on a daily basis or have on our own wish list. Grab something for yourself or a special creative in your life!</p>
-      </div>
-      </div>
-      <div class="item">
-        <div class="post">
-          <div class="image-box"><a href="#"><img src="https://via.placeholder.com/650"></a></div>
-       <span class="tagged">Development</span>
-        <h4><a href="#">How to craft the perfect web developer portfolio</a></h4>
-        <p>This year we put together some of our favorite items we either use on a daily basis or have on our own wish list. Grab something for yourself or a special creative in your life!</p>
-      </div>
-      </div>
+      {{ end }}
     </div>
   </div>
   <div class="cta uk-padding uk-card-secondary">
