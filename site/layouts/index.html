@@ -1,9 +1,80 @@
 {{ define "main" }}
-
-<h1>Hugo with Webpack, Sass, and PostCSS</h1>
-
-<h3>Hooray 🎉 - you've built this with <a href="https://github.com/netlify/victor-hugo">Victor-Hugo</a>!</h3>
-
-<a href="{{ "/tech" | relURL }}">Check out the peanuts</a>
-
+  <main class="site-content">
+    <div class="intro">
+      <div class="image">
+        <img src="https://res.cloudinary.com/pixaful/image/upload/v1565554912/hayden-tomas-large_a3xgxr.png">
+      </div>
+     <div class="text">
+        <h1>Hayden Tomas Website Developer</h1>
+        <p class="lead">I am a british website developer and work for an agency in High Wycombe. I am a fan of coding from
+          scratch using the finest HTML5, CSS3 and Javascript.</p>
+        <p>I work with Wordpress, Hugo, Magento and CraftCMS. A few words that describe my day: Git, Visual studio Code, PHP,
+          Command Line, WAMP, NPM start, Gulp</p>
+     </div>
+    </div>
+    
+    <div class="featuredsites">
+      <div class="featured">
+          <div class="image-box"><a href="#"><img src="https://via.placeholder.com/650"></a></div>
+          <h2>Stage Jewellery</h2>
+          <p>Built on Woocommerce, I moved the original site from a hacked site built on Magento, beefed up the security, included stripe payments and built the UX with thought.</p> <a href="https://www.stagejewellery.com">See more...</a></p>
+  
+      </div>
+      <div class="featured">
+          <div class="image-box"><a href="#"><img src="https://via.placeholder.com/650"></a></div>
+          <h2>Mango Fitness</h2>
+          <p>Built on Wordpress and Elementor, I built a membership site for an existing client base. Designed to help clients keep track of their progress.</p><a href="https://www.mangofitness.co.uk">See more...</a></p>
+      </div>
+    </div>
+    <div class="testimonial">
+      <div class="text">"Hayden is a highly creative individual and I would strongly recommend him to any company/individual who wants a web site
+      which is up-to-the-minute and personalized. His ideas and concepts are a credit to him. He created a FANTASTIC new web
+      site for my business. His after-care and customer service are second-to-none. Great to work with and extremely reliable."</div> 
+      <div class="img"><img src="img/quote-michelle-unger.png" alt="person"></div>
+      <div class="info">
+          <p>Zoe Varzi - Director</p>
+          <a href="https://fullwax.com">The Full Wax ltd</a>
+      </div>
+    </div>
+    <div class="articleinfo">   <h2 class="h1">Latest articles</h2>
+    <p>My blog is full of helpful articles for developers, covering everything I use in my daily web development workflow.</p>
+    <a class="btn btn-primary" href="https://45royale.com/blog/">See all articles</a></div>
+ 
+  <div class="newsitems">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <div class="post">
+          <div class="image-box"><a href="#"><img src="https://via.placeholder.com/650"></a></div>
+       <span class="tagged">Development</span>
+        <h4><a href="#">How to craft the perfect web developer portfolio</a></h4>
+        <p>This year we put together some of our favorite items we either use on a daily basis or have on our own wish list. Grab something for yourself or a special creative in your life!</p>
+      </div>
+      </div>
+      <div class="item">
+        <div class="post">
+          <div class="image-box"><a href="#"><img src="https://via.placeholder.com/650"></a></div>
+       <span class="tagged">Development</span>
+        <h4><a href="#">How to craft the perfect web developer portfolio</a></h4>
+        <p>This year we put together some of our favorite items we either use on a daily basis or have on our own wish list. Grab something for yourself or a special creative in your life!</p>
+      </div>
+      </div>
+      <div class="item">
+        <div class="post">
+          <div class="image-box"><a href="#"><img src="https://via.placeholder.com/650"></a></div>
+       <span class="tagged">Development</span>
+        <h4><a href="#">How to craft the perfect web developer portfolio</a></h4>
+        <p>This year we put together some of our favorite items we either use on a daily basis or have on our own wish list. Grab something for yourself or a special creative in your life!</p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="cta uk-padding uk-card-secondary">
+    <h2 class="h1 uk-text-center">If you want to take your website to the next level, I've got the experience to get you there.</h2>
+    <p class="uk-text-center">
+      Since 2006, we've helped small businesses, Fortune 500 companies, and entrepreneurs build better products with
+      forward-thinking design, data-driven insight, and improved user experiences.
+    </p>
+    <a class="btn btn-primary" href="/get-started/"><span>Let's get started</span></a>
+  </div>
+  </main>
 {{ end }}
