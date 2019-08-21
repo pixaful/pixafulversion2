@@ -1,0 +1,61 @@
+{{ define "main" }}
+<div class="projectbanner">
+        <h1>the big project title and it might be quite long?</h1>
+    </div>
+      <main class="site-content">
+        <div class="singleproject">
+          <div class="featured">
+              <div class="image-box"><a href="#"><img src="https://via.placeholder.com/650x350"></a></div>
+              <div class="singlemain"><div class="singleintro">
+                    <div class="sticky" data-sticky-container data-sticky-for="1280"> 
+                       <div class="div">
+                            <h2>{{ .Title }}</h2>
+                        <p class="uk-h3">London Jewellery Designer who also designed the replica crown jewels seen in "The Crown" on Netflix and BBC's "Victoria" required a website for their expanding collection.</p>
+                        <a class="btn btn-primary" target="_blank" href="#">Visit Website</a>
+                       </div>
+                 </div>
+              </div>
+             <div class="singlecontent">
+                    {{ .Content }}
+           </div></div>
+          </div>
+        </div>
+        <div class="triplepics">
+            <div class="image">
+                    <div class="image-box"><a href="#"><img src="https://via.placeholder.com/650x650"></a></div>
+            </div>
+            <div class="image">
+                    <div class="image-box"><a href="#"><img src="https://via.placeholder.com/650x650"></a></div>
+            </div>
+       
+        </div>
+        <div class="summary">
+    <h2>Finally</h2>
+    <p>We provided hosting on our UK based datacentre</p>
+    <p>Our websites are isolated which means that a website cannot affect another site if it is infected with malware. It also means that you have full control of your website via Cpanel and are free to take backups, make new email accounts, FTP accounts and more.</p>
+    <p>Of course, if you prefer we handle it for you then we are more than happy to do so!</p>
+        </div>
+        <div class="testimonial uk-margin">
+          <div class="text">"Hayden is a highly creative individual and I would strongly recommend him to any company/individual who wants a web site
+          which is up-to-the-minute and personalized. His ideas and concepts are a credit to him. He created a FANTASTIC new web
+          site for my business. His after-care and customer service are second-to-none. Great to work with and extremely reliable."</div> 
+          <div class="img"><img src="img/quote-michelle-unger.png" alt="person"></div>
+          <div class="info">
+              <p>Zoe Varzi - Director</p>
+              <a href="https://fullwax.com">The Full Wax ltd</a>
+          </div>
+        </div>
+        
+     
+     
+      <div class="cta uk-padding uk-card-secondary">
+        <h2 class="h1 uk-text-center">If you want to take your website to the next level, I've got the experience to get you there.</h2>
+        <p class="uk-text-center">
+          Since 2006, we've helped small businesses, Fortune 500 companies, and entrepreneurs build better products with
+          forward-thinking design, data-driven insight, and improved user experiences.
+        </p>
+        <a class="btn btn-primary" href="/get-started/"><span>Let's get started</span></a>
+      </div>
+      </main>
+
+{{ end }}
