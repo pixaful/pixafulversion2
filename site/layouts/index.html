@@ -42,7 +42,7 @@
     </div>
     <div class="articleinfo">   <h2 class="h1">Latest articles</h2>
     <p>My blog is full of helpful articles for developers, covering everything I use in my daily web development workflow.</p>
-    <a class="btn btn-primary" href="https://45royale.com/blog/">See all articles</a></div>
+    <a class="btn btn-primary" href="/blog/">See all articles</a></div>
  
   <div class="newsitems">
     <div class="owl-carousel owl-theme">
@@ -50,7 +50,7 @@
         {{ range .Paginator.Pages }}
       <div class="item">
         <div class="post">
-          <div class="image-box"><a href="{{.URL}}">
+          <div class="image-box"><a href="{{.Permalink}}">
               <picture>
                   <source width="351" height="234"
                        srcset="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.webp_version }}" type="image/webp">
@@ -62,7 +62,7 @@
              </picture>
           </a></div>
        <span class="tagged">Development</span>
-        <h4><a href="{{.URL}}">{{.Title}}</a></h4>
+        <h4><a href="{{.Permalink}}">{{.Title}}</a></h4>
         {{.Summary}}
       </div>
       </div>
