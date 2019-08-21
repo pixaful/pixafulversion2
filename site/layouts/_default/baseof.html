@@ -42,6 +42,7 @@
   <meta property="og:url" content="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .Permalink | absURL }}" />
   <meta property="og:site_name" content="Pixaful" />{{- end }}{{ $stylesheet := .Site.Data.webpack.main }}{{ with $stylesheet.css }}
   <link href="{{ relURL . }}" rel="stylesheet">{{ end }}
+
 </head>
 <body>
   {{ block "header" . }}{{ partial "header" . }}{{end}}
