@@ -1,3 +1,387 @@
+@import 'includes/normal.scss';
+@import 'includes/uikit';
+@import 'includes/button.scss';
+@import 'includes/owl.carousel.scss';
+@import 'includes/theme.default';
+@import 'includes/sm-simple';
+@import 'includes/sm-core-css';
+@import 'includes/hamburger';
+
+.padded {
+  padding:20px;
+}
+
+/* Variables */
+$merry: 'Merriweather', serif;
+$cabin: 'Cabin', sans-serif;
+$link: #31baf0;
+
+/* The fonts */
+@font-face {
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Cabin Bold'), local('Cabin-Bold'), url(/fonts/u-480qWljRw-PdeL2uhluyk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Merriweather Regular'), local('Merriweather-Regular'), url(/fonts/u-440qyriQwlOrhSvowK_l5-fCZM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+img {
+  max-width:100%;
+}
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+
+
+/* Flexbox sticky footer */
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.site-content {
+  flex: 1;
+}
+
+/* Mobiles first */
 body {
-  background:yellow;
+  background:rgb(248, 248, 248);
+  font-family:$merry;
+  line-height:1.5;
+  padding-top:20px;
+}
+h1,h2,h3 {
+  font-family:$cabin;
+  line-height:1.2;
+}
+
+a {
+  text-decoration:none;
+  font-weight:bold;
+  color:$link;
+&:hover {
+  color:#333;
+}
+}
+.site-header {
+  padding: 20px 10% 0 10%;
+  display:grid;
+  align-items:center;
+  margin-bottom:20px;
+}
+.site-content {
+  padding:0 10% 0 10%;
+}
+
+/* Project Banner */
+
+.projectbanner {
+  background:#444;
+  margin-bottom:20px;
+  h1 {
+    color:#fff;
+    font-size:1.4em;
+    text-transform:uppercase;
+    text-align:center;
+  }
+}
+
+
+
+
+
+
+/* Intro */
+
+.intro {
+  display:grid;
+  margin-bottom:30px;
+
+  .btn {
+    text-align:center;
+  }
+}
+
+/* Testimonial */
+
+.testimonial {
+  background:rgb(243, 243, 212);
+  padding:40px;
+  .text {
+    font-size:1.2em;
+  }
+  .img {
+text-align:center;
+margin-top:10px;
+  }
+  .info {
+    text-align:center;
+  }
+}
+
+.articleinfo {
+
+  margin-bottom:20px;
+  display:grid;
+  .btn {
+    text-align:center;
+  }
+}
+
+
+/* Hover for images */
+.image-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom:15px;
+}
+.image-box img {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+.image-box:hover img {
+    transform: scale(1.2);
+}
+
+.post {
+  span {
+    text-transform:uppercase;
+    font-weight:bold;
+  }
+  h4 {
+    font-size:1.4em;
+ 
+  }
+}
+
+.cta {
+  display:grid;
+.btn {
+  text-align:center;
+}
+}
+
+/* Footer */
+.cta {
+  margin-top:80px;
+}
+.site-footer {
+  margin-top:80px;
+  padding:0 10% 0 10%;
+  h3 {
+    font-size:1.3em;
+    }
+  p,li {
+    font-size:1em;
+    list-style:none;
+    color:rgb(87, 87, 87);
+      }
+  ul {
+    padding:0;
+  }
+  .foot-item {
+  padding:10px 0 20px 0;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (orientation:portrait) {
+
+
+body {
+  font-size:1.2em;
+}
+  .site-header {
+  display:grid;
+  grid-template-columns:1fr;
+.logo {
+  margin: 0 auto;
+}
+
+  // #main-menu {
+  //   display:grid;
+  //   justify-content:center;
+  //   align-items:center;
+  //   float: none;
+  //   clear: none;
+  // }
+  #main-menu {
+    float:none;
+  display: flex !important;
+  justify-content: center;
+li {
+  display:inline;
+  a {
+    display:inline-block;
+  }
+}
+
+
+  }
+}
+.lead {
+  font-size:1.2em;
+}
+.featuredsites {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:20px;
+}
+.site-footer {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap:20px;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) and (orientation:landscape) {
+body {
+  font-size:1.2em;
+}
+.site-header {
+  display:grid;
+  grid-template-columns:5fr 8fr;
+}
+.lead {
+  font-size:1.2em;
+}
+.intro {
+  display:grid;
+  grid-template-columns: 6fr 8fr;
+  grid-gap:40px;
+}
+.featuredsites {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:20px;
+}
+.site-footer {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-gap:20px;
+}
+
+}
+
+@media only screen and (min-width: 1280px) {
+.intro {
+  display:grid;
+  grid-template-columns: 5fr 8fr;
+  grid-gap:40px;
+}
+h1 {
+  font-size:3.1em;
+}
+
+
+.singlemain {
+  display:grid;
+  grid-template-columns:4fr 8fr;
+  grid-gap:50px;
+  margin:50px 0px 50px 0px;
+  h2,h3 {
+    margin-top:0px;
+    margin-bottom:0px;
+  }
+
+  .singlecontent {
+    padding-left:20px;
+    border-left: dotted 2px #a7a7a7;
+  }
+
+}
+
+.singleblog {
+  display:grid;
+  grid-template-columns:8fr 4fr;
+  grid-gap:50px;
+  margin:50px 0px 50px 0px;
+  h2,h3 {
+    margin-top:0px;
+    margin-bottom:0px;
+  }
+  .singleintro {
+    padding-right:20px;
+    border-right: dotted 2px #a7a7a7;
+  }
+
+
+}
+
+.triplepics {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:50px;
+}
+
+
+
+}
+
+@media only screen and (min-width: 1366px) {
+.intro h1 {
+  font-size:3.5em;
+}
+
+.site-footer {
+
+  grid-template-columns: 2fr 2fr 1fr 1fr;
+  grid-gap:80px;
+}
+.btn {
+  max-width:300px;
+ margin: 0 auto;
+  
+}
+}
+
+@media only screen and (min-width: 1680px) {
+.intro h1 {
+  font-size:4.5em;
+}
+}
+
+
+@media only screen and (min-width: 1680px) {
+.site-header,.site-content,.site-footer {
+  padding: 0 15% 0 15%;
+}
+
 }
