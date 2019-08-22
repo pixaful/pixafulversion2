@@ -103,10 +103,7 @@
               <div class="singlemain">
                 <div class="singleintro" data-sticky-container data-sticky-for="1280">
                   <div class="sticky">
-                    <h2>Stage Jewellery</h2>
-                    <p class="uk-h3">London Jewellery Designer who also designed the replica crown jewels seen in "The Crown" on
-                      Netflix and BBC's "Victoria" required a website for their expanding collection.</p>
-                    <a class="btn btn-primary" target="_blank" href="#">Visit Website</a>
+                  {{ partial "portfolio-intro" . }}
                   </div>
                 </div>
                 <div class="singlecontent">
@@ -127,29 +124,10 @@
         
           </div>
           <div class="summary">
-            <h2>Finally</h2>
-            <p>We provided hosting on our UK based datacentre</p>
-            <p>Our websites are isolated which means that a website cannot affect another site if it is infected with malware.
-              It also means that you have full control of your website via Cpanel and are free to take backups, make new email
-              accounts, FTP accounts and more.</p>
-            <p>Of course, if you prefer we handle it for you then we are more than happy to do so!</p>
+            <h2>{{ .Params.SummaryTitle }}</h2>
+          {{ with .Params.SummaryContent }}{{ . | safeHTML }}{{ end }}
           </div>
-          <div class="testimonial uk-margin">
-            <div class="text">"Hayden is a highly creative individual and I would strongly recommend him to any
-              company/individual who wants a web site
-              which is up-to-the-minute and personalized. His ideas and concepts are a credit to him. He created a FANTASTIC new
-              web
-              site for my business. His after-care and customer service are second-to-none. Great to work with and extremely
-              reliable."</div>
-            <div class="img"><img src="img/quote-michelle-unger.png" alt="person"></div>
-            <div class="info">
-              <p>Zoe Varzi - Director</p>
-              <a href="https://fullwax.com">The Full Wax ltd</a>
-            </div>
-          </div>
-        
-        
-        
+           {{ partial "testimonial" . }}
           <div class="cta uk-padding uk-card-secondary">
             <h2 class="h1 uk-text-center">If you want to take your website to the next level, I've got the experience to get you
               there.</h2>

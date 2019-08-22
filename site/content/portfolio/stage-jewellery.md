@@ -15,12 +15,18 @@ twitterimage = ""
 twittersite = ""
 twittertitle = ""
 twitterurl = ""
+PortfolioTitle = "Stage Jewellery"
+PortfolioIntro = 'London Jewellery Designer who also designed the replica crown jewels seen in The Crown on Netflix and Victoria on BBC required a website for their expanding collection'
+SummaryTitle = "Finally"
+SummaryContent = "<p>We provided hosting on our UK based datacentre</p><p>Our websites are isolated which means that a website cannot affect another site if it is infected with malware. It also means that you have full control of your website via Cpanel and are free to take backups, make new email accounts, FTP accounts and more.</p><p>Of course, if you prefer we handle it for you then we are more than happy to do so!</p>"
+testimonials = true
+ Testimonial = "Hayden is a highly creative individual and I would strongly recommend him to any company/individual who wants a web site which is up-to-the-minute and personalized. His ideas and concepts are a credit to him. He created a FANTASTIC new web site for my business. His after-care and customer service are second-to-none. Great to work with and extremely reliable."
 [menu.mainmenu]
 parent = "Portfolio"
 weight = 1
 
 +++
-## This will be the content for the Mango Fitness case study
+## E-Commerce Website for London Jewellery Designer
 
 
 Lorem markdownum ausum neque pallam curvarique tarda deduxit modis dantem
