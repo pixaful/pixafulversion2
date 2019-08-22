@@ -20,9 +20,12 @@
                                              <img class="uk-align-left uk-margin-remove-adjacent" src="{{ $.Site.Params.cloudinary_base_url }}/w_251{{ .Params.featured_image }}" alt="{{.Title}}"/>
                                 
                                    <div>
-                                        <div class="uk-card-badge uk-label">Development</div>
+                                        <div class="uk-card-badge uk-label" style="background-color:{{ .Params.tagColor }}">{{ .Params.tags }}</div>
+                                      
+                                      <a href="/categories">{{ .Params.categories }}</a>
                                         <h2><a href="{{.Permalink }}">{{.Title}}</a></h2>
-                                        <small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>         
+                                        <small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>    
+                                          
                                         <p>{{.Summary}}</p>
                                    </div>
                               
