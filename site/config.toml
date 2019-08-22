@@ -41,8 +41,9 @@ Cache-Control = "public, max-age=604800"
 for = "*.png"
 [headers.values]
 Cache-Control = "public, max-age=604800"
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+
 [taxonomies]
-   tag = "tags"
-   category = "categories"
-disqusShortname = "pixaful"
+category = "categories"
+tag = "tags"
+author = "authors"

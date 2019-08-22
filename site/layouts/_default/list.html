@@ -1,17 +1,20 @@
 {{ define "main" }}
-<main class="Site-content">
- 
+
+<main class="site-content">
+ <h1>Blog</h1>
      {{.Content}}
      {{ $paginator := .Paginate (where .Site.RegularPages "Type" "blog") }}
      {{ range .Paginator.Pages }}
  
  
 
+    
+  
 
-      <main class="site-content">
+  
     <div class="singleproject">
       <div class="featured">
-              <h1>Blog</h1>
+       
           <div class="singleblogs"><div class="singleintro">
                     <div class="uk-card uk-margin uk-card-body uk-card-default">
                          
@@ -20,9 +23,10 @@
                                              <img class="uk-align-left uk-margin-remove-adjacent" src="{{ $.Site.Params.cloudinary_base_url }}/w_251{{ .Params.featured_image }}" alt="{{.Title}}"/>
                                 
                                    <div>
-                                        <div class="uk-card-badge uk-label" style="background-color:{{ .Params.tagColor }}">{{ .Params.tags }}</div>
+                                        <div class="uk-card-badge uk-label" style="background-color:{{ .Params.tagColor }}">  {{ with .Params.Tags }}
+      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
+      {{ end }}</div>
                                       
-                                      <a href="/categories">{{ .Params.categories }}</a>
                                         <h2><a href="{{.Permalink }}">{{.Title}}</a></h2>
                                         <small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>    
                                           
@@ -50,7 +54,7 @@
     </p>
     <a class="btn btn-primary" href="/get-started/"><span>Let's get started</span></a>
   </div>
-  </main>
+ 
 </main>
 
 {{ end }}
