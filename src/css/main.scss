@@ -184,6 +184,7 @@ a {
 .testimonial {
   background:rgb(243, 243, 212);
   padding:40px;
+  margin-top:80px;
   .text {
     font-size:1.2em;
   }
@@ -196,12 +197,20 @@ margin-top:10px;
   }
 }
 
+
+.featuredsites {
+ 
+}
 .articleinfo {
 
-  margin-bottom:20px;
+  margin-bottom:80px;
+  margin-top:80px;
   display:grid;
   .btn {
     text-align:center;
+  }
+  p {
+    font-size:1.5em;
   }
 }
 
