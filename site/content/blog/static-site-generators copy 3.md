@@ -12,9 +12,9 @@ twitterdescription = "Static site generators provide a clean, lean website witho
 twitterimage = "/uploads/hugo-design.jpg"
 twittertitle = "What's up with static site generators?"
 webp_version = "/v1565162320/hugo-static-site-design_kcix5y.webp"
-tagColor = "blue"
+tagColor = "Yellow"
 category ="batman"
-tags = "Design"
+tags = "Sass"
 
 +++
 ## Building a static website is totally worth it
