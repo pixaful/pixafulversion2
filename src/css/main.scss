@@ -190,10 +190,18 @@ a {
   }
   .img {
 text-align:center;
-margin-top:10px;
+margin: 20px 0px 20px 0px;
+
+  }
+  img {
+    border-radius:50%;
+    border: solid 5px #ffffff;
   }
   .info {
     text-align:center;
+  }
+  p {
+    margin: 0;
   }
 }
 
