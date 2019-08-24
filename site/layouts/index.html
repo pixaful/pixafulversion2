@@ -9,7 +9,7 @@
      </picture>
       </div>
      <div class="text">
-        <h1>Hayden Tomas Web Developer</h1>
+        <h1>Hayden Tomas <br />Web Developer</h1>
         <p class="lead">I am a british website developer and work for an agency in High Wycombe. I am a fan of coding from
           scratch using the finest HTML5, CSS3 and Javascript.</p>
         <p>I work with Wordpress, Hugo, Magento and CraftCMS. A few words that describe my day: Git, Visual studio Code, PHP,
@@ -75,7 +75,9 @@
                        src="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.featured_image }}" alt="{{.Title}}" />
              </picture>
           </a></div>
-       <span class="tagged">Development</span>
+       <span class="tagged">                           <div class="uk-card-badge uk-label" style="background-color:{{ .Params.tagColor }}">  {{ with .Params.Tags }}
+        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
+        {{ end }}</div></span>
         <h4><a href="{{.Permalink}}">{{.Title}}</a></h4>
         {{.Summary}}
       </div>
