@@ -1,7 +1,7 @@
 +++
 date = "2019-07-18T23:00:00+00:00"
 description = ""
-featured_image = "/v1565470090/first-image_gc6otr.jpg"
+featured_image = "/v1566766245/macbook-stage-jewellery.jpg"
 ogdescription = ""
 ogimage = ""
 ogtitle = ""
