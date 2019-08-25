@@ -60,25 +60,7 @@ $merry: 'Merriweather', serif;
 $cabin: 'Cabin', sans-serif;
 $link: #31baf0;
 
-/* The fonts */
-// @font-face {
-//   font-family: 'Cabin';
-//   font-style: normal;
-//   font-weight: 700;
-//   font-display: swap;
-//   src: local('Cabin Bold'), local('Cabin-Bold'), url(/fonts/u-480qWljRw-PdeL2uhluyk.woff2) format('woff2');
-//   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-// }
-// @font-face {
-//   font-family: 'Merriweather';
-//   font-style: normal;
-//   font-weight: 400;
-//   font-display: swap;
-//   src: local('Merriweather Regular'), local('Merriweather-Regular'), url(/fonts/u-440qyriQwlOrhSvowK_l5-fCZM.woff2) format('woff2');
-//   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-// }
 @font-face { font-family: 'Merriweather'; font-style: normal; font-weight: 400; src: url('/fonts/merriweather-v21-latin-regular.eot'); src: local('Merriweather Regular'), local('Merriweather-Regular'), url('/fonts/merriweather-v21-latin-regular.eot?#iefix') format('embedded-opentype'), url('/fonts/merriweather-v21-latin-regular.woff2') format('woff2'), url('/fonts/merriweather-v21-latin-regular.woff') format('woff'), url('/fonts/merriweather-v21-latin-regular.ttf') format('truetype'), url('/fonts/merriweather-v21-latin-regular.svg#Merriweather') format('svg'); }
-
 @font-face { font-family: 'Cabin'; font-style: normal; font-weight: 400; src: url('/fonts/cabin-v14-latin-regular.eot'); src: local('Cabin'), local('Cabin-Regular'), url('/fonts/cabin-v14-latin-regular.eot?#iefix') format('embedded-opentype'), url('/fonts/cabin-v14-latin-regular.woff2') format('woff2'), url('/fonts/cabin-v14-latin-regular.woff') format('woff'), url('/fonts/cabin-v14-latin-regular.ttf') format('truetype'), url('/fonts/cabin-v14-latin-regular.svg#Cabin') format('svg'); }
 @font-face { font-family: 'Cabin'; font-style: normal; font-weight: 700; src: url('/fonts/cabin-v14-latin-700.eot'); src: local('Cabin Bold'), local('Cabin-Bold'), url('/fonts/cabin-v14-latin-700.eot?#iefix') format('embedded-opentype'), url('/fonts/cabin-v14-latin-700.woff2') format('woff2'), url('/fonts/cabin-v14-latin-700.woff') format('woff'), url('/fonts/cabin-v14-latin-700.ttf') format('truetype'), url('/fonts/cabin-v14-latin-700.svg#Cabin') format('svg'); }
 
@@ -179,7 +161,20 @@ a {
   .btn {
     text-align:center;
   }
+  h1 {
+    font-size:2.5em;
+    margin-bottom:10px;
+  }
+
+  h2 {
+    font-size:2.1em;
+    line-height:1;
+    margin-top:0;
+  }
 }
+
+
+
 
 /* Testimonial */
 
@@ -208,9 +203,7 @@ margin: 20px 0px 20px 0px;
 }
 
 
-.featuredsites {
- 
-}
+
 .articleinfo {
 
   margin-bottom:80px;
@@ -372,8 +365,14 @@ body {
   grid-template-columns: 5fr 8fr;
   grid-gap:40px;
 }
-h1 {
-  font-size:3.1em;
+.intro h1 {
+  font-size:3.5em;
+  margin-bottom:10px;
+}
+.intro h2 {
+  font-size:3.5em;
+  line-height:1;
+  margin-top:0;
 }
 
 
@@ -422,9 +421,7 @@ h1 {
 }
 
 @media only screen and (min-width: 1366px) {
-.intro h1 {
-  font-size:3.5em;
-}
+
 
 .site-footer {
 
