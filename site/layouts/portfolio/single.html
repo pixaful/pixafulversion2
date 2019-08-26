@@ -6,7 +6,7 @@
           <div class="singleproject">
             <div class="featured">
               <div class="image-box">
-                <img src="https://via.placeholder.com/650x350">
+            
                 <picture>
                     <source srcset="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.webp_version }}" type="image/webp">
                     <source srcset="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.featured_image }}" type="image/jpeg">
@@ -21,11 +21,7 @@
                 </div>
                 <div class="singlecontent">
                   <div class="sticker">
-                      <picture>
-                          <source srcset="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.webp_version }}" type="image/webp">
-                          <source srcset="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.featured_image }}" type="image/jpeg">
-                          <img src="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.featured_image }}" alt="{{.Title}}" />
-                        </picture>
+                 
                       {{ .Content }}
                   </div>
                 </div>

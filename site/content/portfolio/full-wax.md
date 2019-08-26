@@ -1,7 +1,8 @@
 +++
 date = "2019-07-18T23:00:00+00:00"
 description = ""
-featured_image = "/v1566766245/macbook-stage-jewellery.jpg"
+featured_image = "/v1566851319/full-wax-banner_pm9643.jpg"
+webp_version = "/v1566851319/full-wax-banner_pm9643.webp"
 ogdescription = ""
 ogimage = ""
 ogtitle = ""
