@@ -6,7 +6,7 @@
    <img class="uk-align-left uk-margin-remove-adjacent"
       src="{{ $.Site.Params.cloudinary_base_url }}/w_251{{ .Params.featured_image }}" alt="{{.Title}}" />
    <div>
-      <div class="uk-card-badge uk-label" style="background-color:{{ .Params.tagColor }}"> {{ with .Params.Tags }}
+      <div class="tagged uk-card-badge uk-label" style="background-color:{{ .Params.tagColor }}"> {{ with .Params.Tags }}
          <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
          {{ end }}</div>
       <h2><a href="{{.Permalink }}">{{.Title}}</a></h2>
