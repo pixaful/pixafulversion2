@@ -10,14 +10,28 @@ summary = "Static site generators provide a clean, lean website without a databa
 title = "What's up with static site generators?"
 twitterdescription = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
 twitterimage = "/uploads/hugo-design.jpg"
-twittertitle = "What's up with static site generators?"
+twittertitle = "Static Website Development - Should you bother?"
 webp_version = "/v1565162320/hugo-static-site-design_kcix5y.webp"
-tagColor = "green"
-category ="batman"
+tagColor = "#ffcd30"
 tags = "Development"
 
 +++
-## Building a static website is totally worth it
+
+## Static Website Development - Should you bother?
+
+For most of my career I have used Wordpress as my weapon of choice for developing websites for small business clients. 
+
+Wordpress makes it very easy to build a website and hand it over. However it can be expensive to maintain with its security issues and updates. 
+
+To be fair to Wordpress, being the most popular CMS on the market will make you a target for hackers, in the same way that PC's get targetted more than macs.
+
+For Wordpress I tend to roll my own theme, use advanced custom fields and I don't really use plugins except for an SEO plugin. I might use Elementor for projects that require it or when the budget is lower and requires me to build things quicker.
+
+Elementor being a page builder means that you end up with code in your source code that you didn't ask for, but that is the price of convenience.
+
+As I am a curious developer, I wanted to give static sites a try. I would go so far as to say that static sites are very useable for clients that have sites that do not change much. Brochure websites and basic pages work well with static sites. 
+
+
 
 For years I have been working on a variety of content management systems. I have worked with Magento, DNN, CraftCMS, Wordpress, Shopify and more. Usually I roll WordPress.
 

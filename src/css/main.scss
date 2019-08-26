@@ -148,8 +148,12 @@ a {
 }
 
 
-
-
+.development {
+  background:#ffcd30 !important;
+}
+.tagged a {
+  color:#ffffff;
+}
 
 
 /* Intro */
@@ -224,6 +228,7 @@ margin: 20px 0px 20px 0px;
     margin: auto;
     overflow: hidden;
     margin-bottom:15px;
+    border-radius:10px;
 }
 .image-box img {
     max-width: 100%;
@@ -232,9 +237,11 @@ margin: 20px 0px 20px 0px;
     width: 100%;
     height: auto;
     transform: scale(1);
+    border-radius:10px;
 }
 .image-box:hover img {
     transform: scale(1.2);
+    border-radius:10px;
 }
 
 .post {
