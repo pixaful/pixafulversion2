@@ -18,6 +18,7 @@ twittertitle = ""
 twitterurl = ""
 PortfolioTitle = "Full Wax"
 PortfolioIntro = 'Aircraft Detailing Company based in Farnborough Airport required an easy to use, secure, seo ready website.'
+PortfolioURL = "https://fullwax.com"
 SummaryTitle = "Finally"
 SummaryContent = "<p>We provided hosting on our UK based datacentre</p><p>Our websites are isolated which means that a website cannot affect another site if it is infected with malware. It also means that you have full control of your website via Cpanel and are free to take backups, make new email accounts, FTP accounts and more.</p><p>Of course, if you prefer we handle it for you then we are more than happy to do so!</p>"
 testimonials = true
@@ -25,45 +26,30 @@ testimonials = true
 
 
 +++
-## Wordpress Website for Aircraft Detailing Company
+## Aircraft Detailing Company required Website + Rankings
 
 
-Lorem markdownum ausum neque pallam curvarique tarda deduxit modis dantem
-perque, suos litore patens. [Sic](http://atque-est.net/iacent.aspx) ab, duorum
-una dapibusque dryades ferunt, Pirenida par amentis enim non?
+This is our third website design with The Full Wax as we have been working with the company for a number of years.
 
-1. Deponit insidias limine draconi haec frustra retractant
-2. Habet ego frustra vidit Phinea et metum
-3. Istis quae partus minasque in remos dentibus
-4. Pro declinat quis animos admiratur ab porrigitur
+What originally began as a flash website and has been transported into an easy to manage, lightning fast Wordpress website which loads very quickly and holds a first page ranking in Google for a number of keywords.
 
-## Quos tantum iamque deficit mare est vox
+The client wanted to:
 
-Mucrone silentia. Vultus in adest! Lux **eodem timore** soceri medullis viro te,
-quoque [mente](http://www.suo.io/peleu) favent nos quod habet iacens, inania.
-Petunt percepitque duro.
+1. Manage the website.
+2. Create their own templates using a pre defined set of blocks.
+3. Update the content whenever they like without having to ask me to do it.
 
-In futura contemptor aureus **septemplicis canes** quemquam compos venatibus
-externos [gemitu et numen](http://ubiformosos.io/) fluitantia qui, iam. Dantem
-peccasse ab Turni, acceptos, et monitis atria.
+They also requested that:
 
-## Claro est quin cum iuvencae ex Baucis
+1. The website was secure.
+2. Daily, weekly and monthly off-site backups were maintained.
 
-Loricamque veros viribus clementia et non? Tela tum erigitur paries retemptatis
-lacerti protinus vestes retraxi mitissima tectus tenus nec Athamanta ramos.
+## Beaver Builder + Generate Press makes for lightning fast development time and a very happy client
 
-> Maternaque nudare cursus. Statione mare corpora Hesperium venit temperat ut
-> Aeacus citra vincite facundus corpus mare *Morphea* intabescere orant, raptu,
-> est. Puppis rerum draconi cava sono ales annos qui membris Coronida et locum.
-> Fons referat fuit conatur dextra. Illo latentem scitarier negare, et libera
-> cremata lingua quia ense.
+To keep costs down, I used a mix of Beaver Builder and Generate Press with our own child theme. This allowed me to develop the website extremely quickly whilst maintainign an obove average page speed for every page.
 
-Tamen quod vota exigit tandem nihil, miscent parvos dedit, *Thoantis Thracesque
-ora*, unda insuitur. Inmemores magniloquo refert in vicit poples. Et ille sic
-palmis *qua* admirantibus litora, supremaque ille; diu.
+## SEO
 
-Dolos nulloque sacraque in fistula dolor admovit, dixit quam sinistra crinem
-*Saturnia*. Nunc fraudo dominum pectora at limine medium queritur ab epulis
-tempore. Est albente, passim e namque cum quae committit eundem tum. Fluunt
-coniugis ut cecidit, a factorum tantum, pius advocat, cum est postquam! Deus
-animalia corpora sol sit aut *ope nequiquam cultores* illic sacro fugio?
+Every page has been well optimised with SEO best practices, including open graph, twitter cards. 
+
+I am currently developing a personalised SEO programme for The Full Wax which will ensure that the company continues to thrive in 2019 and 2020.
