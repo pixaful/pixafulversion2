@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
 paginate = 3
-title = "Pixaful Version 2"
+title = "Pixaful"
 [[menu.mainmenu]]
 identifyer = "Blog"
 name = "Blog"
