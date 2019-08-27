@@ -30,10 +30,22 @@
           </div>
           <div class="triplepics">
             <div class="image">
-              <div class="image-box"><a href="#"><img src="https://via.placeholder.com/650x650"></a></div>
+              <div class="image-box">
+                      <picture>
+                        <source srcset="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.webp_version2 }}" type="image/webp">
+                        <source srcset="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.featured_image2 }}" type="image/jpeg">
+                        <img src="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.featured_image2 }}" alt="{{.Title}}" />
+                      </picture>
+              </div>
             </div>
             <div class="image">
-              <div class="image-box"><a href="#"><img src="https://via.placeholder.com/650x650"></a></div>
+              <div class="image-box">
+                      <picture>
+                        <source srcset="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.webp_version3 }}" type="image/webp">
+                        <source srcset="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.featured_image3 }}" type="image/jpeg">
+                        <img src="{{ $.Site.Params.cloudinary_base_url }}{{ .Params.featured_image3 }}" alt="{{.Title}}" />
+                      </picture>
+              </div>
             </div>
         
           </div>
