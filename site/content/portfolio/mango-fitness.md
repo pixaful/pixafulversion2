@@ -15,24 +15,24 @@ ogtitle = ""
 ogurl = ""
 sideheading = "This is the side heading and can be as \"long\" as it needs to be..."
 summary = "Clean code and a fast loading website with no database to take care of, or get hacked. What's not to love!"
-title = "Full Wax"
+title = "Mango Fitness"
 twittercreator = ""
 twitterdescription = ""
 twitterimage = ""
 twittersite = ""
 twittertitle = ""
 twitterurl = ""
-PortfolioTitle = "Full Wax"
-PortfolioIntro = 'Aircraft Detailing Company based in Farnborough Airport required an easy to use, secure, seo ready website.'
-PortfolioURL = "https://fullwax.com"
+PortfolioTitle = "Mango Fitness"
+PortfolioIntro = 'Personal trainer for women and children required a membership website to manage her growing client base.'
+PortfolioURL = "https://mangofitness.co.uk"
 SummaryTitle = "Finally"
 SummaryContent = "<p>We provided hosting on our UK based datacentre</p><p>Our websites are isolated which means that a website cannot affect another site if it is infected with malware. It also means that you have full control of your website via Cpanel and are free to take backups, make new email accounts, FTP accounts and more.</p><p>Of course, if you prefer we handle it for you then we are more than happy to do so!</p>"
 testimonials = true
- Testimonial = "Hayden is a highly creative individual and I would strongly recommend him to any company/individual who wants a web site which is up-to-the-minute and personalized. His ideas and concepts are a credit to him. He created a FANTASTIC new web site for my business. His after-care and customer service are second-to-none. Great to work with and extremely reliable."
+ Testimonial = "Hayden is a highly creative individual and I would strongly recommend him to any company/individual who wants a web site which is up-to-the-minute and personalized. His ideas and concepts are a credit to him. He created a FANTASTIC new web site for my business. His after-care and customer service are second-to-none. Great to work with and extremely reliable..."
 
 
 +++
-## Aircraft Detailing Company required Website + Rankings
+## Managing a growing client based is now a breeze for Mango Fitness
 
 
 This is our third web development project with The Full Wax. We have been working with the company for a number of years.
