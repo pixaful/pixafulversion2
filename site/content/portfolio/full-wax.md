@@ -52,7 +52,7 @@ They also requested that:
 
 ## A distinct look and feel
 
-The brand is an all black design with a silver logo. The vans have them as does the company business card. This is reflected throughout the website whihc is responsive from mobile to desktop.
+The brand is an all black design with a silver logo. The vans have them as does the company business card. This is reflected throughout the website which is responsive from mobile to desktop.
 
 
 ## SEO
