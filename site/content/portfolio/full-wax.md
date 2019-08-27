@@ -33,9 +33,11 @@ testimonials = true
 ## Aircraft Detailing Company required Website + Rankings
 
 
-This is our third website design with The Full Wax as we have been working with the company for a number of years.
+This is our third web development project with The Full Wax. We have been working with the company for a number of years.
 
-What originally began as a flash website and has been transported into an easy to manage, lightning fast Wordpress website which loads very quickly and holds a first page ranking in Google for a number of keywords.
+What originally began as a flash website has been developed into an easy to manage, lightning fast Wordpress website.
+
+The website loads very quickly and holds a first page ranking in Google for a number of keywords.
 
 The client wanted to:
 
@@ -48,9 +50,10 @@ They also requested that:
 1. The website was secure.
 2. Daily, weekly and monthly off-site backups were maintained.
 
-## Beaver Builder + Generate Press makes for lightning fast development time and a very happy client
+## A distinct look and feel
 
-To keep costs down, I used a mix of Beaver Builder and Generate Press with our own child theme. This allowed me to develop the website extremely quickly whilst maintainign an obove average page speed for every page.
+The brand is an all black design with a silver logo. The vans have them as does the company business card. This is reflected throughout the website whihc is responsive from mobile to desktop.
+
 
 ## SEO
 
