@@ -230,6 +230,12 @@ margin: 20px 0px 20px 0px;
     margin-bottom:15px;
     border-radius:10px;
 }
+.image-boxe {
+  border-radius:10px !important;
+}
+.image-boxe img {
+  border-radius:10px !important;
+}
 .image-box img {
     max-width: 100%;
     transition: all 0.3s;
