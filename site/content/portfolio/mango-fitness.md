@@ -1,8 +1,8 @@
 +++
 date = "2019-07-18T23:00:00+00:00"
 description = ""
-featured_image = "/v1566910638/full-wax-main_ra3gw7.png"
-webp_version = "/v1566910638/full-wax-main_ra3gw7.webp"
+featured_image = "/v1566978302/mango-fitness-main_dayncg.jpg"
+webp_version = "/v1566978302/mango-fitness-main_dayncg.webp"
 featured_image2 = "/v1566939500/full-wax-2_xwbcu4.jpg"
 webp_version2 = "/v1566939500/full-wax-2_xwbcu4.webp"
 v2title = "Responsive website development"
@@ -34,31 +34,35 @@ testimonials = true
 +++
 ## Managing a growing client based is now a breeze for Mango Fitness
 
+Mango Fitness is a long standing client for which I have developed websites and online marketing material for email campaigns.
 
-This is our third web development project with The Full Wax. We have been working with the company for a number of years.
+I used Wordpress for this project alongside Elementor and GeneratePress.
 
-What originally began as a flash website has been developed into an easy to manage, lightning fast Wordpress website.
+A page builder was an obvious choice for this project.
+A tight budget and the conversations we have on the telephone to discuss projects means I can do quick changes on the fly.
 
-The website loads very quickly and holds a first page ranking in Google for a number of keywords.
+The client can see them before the converation has even finished.
+
+The site loads very quickly and is packed with engaging elements throughout.
+
 
 The client wanted to:
 
-1. Manage the website.
-2. Create their own templates using a pre defined set of blocks.
-3. Update the content whenever they like without having to ask me to do it.
+1. Manage their existing client base via the website.
+2. Allow their clients to see progress reports, and updates via their own members area.
+3. Provide specific content to different levels of membership.
 
 They also requested that:
 
-1. The website was secure.
-2. Daily, weekly and monthly off-site backups were maintained.
+1. The website had good security so it could not be hacked.
+2. Back-ups were maintained on a schedule.
 
 ## A distinct look and feel
 
-The brand is an all black design with a silver logo. The vans have them as does the company business card. This is reflected throughout the website which is responsive from mobile to desktop.
+Mango Fitness is a very colourful website, I had lots to choose from as the logo had a dash of everything!
 
 
 ## SEO
 
 Every page has been well optimised with SEO best practices, including open graph, twitter cards. 
 
-I am currently developing a personalised SEO programme for The Full Wax which will ensure that the company continues to thrive in 2019 and 2020.
