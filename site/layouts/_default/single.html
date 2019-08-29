@@ -43,7 +43,13 @@
 <main class="site-content">
   <div class="singleproject">
     <div class="featured">
-      <div class="image-box"><a href="#"><img src="https://via.placeholder.com/650x350"></a></div>
+      <div class="image-boxe">
+        <picture>
+          <source srcset="{{ $.Site.Params.cloudinary_base_url }}/w_1332{{ .Params.webp_version }}" type="image/webp">
+          <source srcset="{{ $.Site.Params.cloudinary_base_url }}/w_1332{{ .Params.featured_image }}" type="image/jpeg">
+          <img src="{{ $.Site.Params.cloudinary_base_url }}/w_1332{{ .Params.featured_image }}" alt="{{.Title}}" />
+        </picture>
+      </div>
       <div class="singleblog">
           <div class="singlecontent">
             <div class="sticker">
@@ -60,19 +66,6 @@
       </div>
     </div>
   </div>
-  <div class="triplepics">
-    <div class="image">
-      <div class="image-box"><a href="#"><img src="https://via.placeholder.com/650x650"></a></div>
-    </div>
-    <div class="image">
-      <div class="image-box"><a href="#"><img src="https://via.placeholder.com/650x650"></a></div>
-    </div>
-
-  </div>
-
-
-
-
 
   <div class="cta uk-padding uk-card-secondary">
     <h2 class="h1 uk-text-center">If you want to take your website to the next level, I've got the experience to get you
