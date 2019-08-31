@@ -25,8 +25,7 @@ twitterurl = ""
 PortfolioTitle = "Full Wax"
 PortfolioIntro = 'Aircraft Detailing Company based in Farnborough Airport required an easy to use, secure, seo ready website.'
 PortfolioURL = "https://fullwax.com"
-SummaryTitle = "Finally"
-SummaryContent = "<p>We provided hosting on our UK based datacentre</p><p>Our websites are isolated which means that a website cannot affect another site if it is infected with malware. It also means that you have full control of your website via Cpanel and are free to take backups, make new email accounts, FTP accounts and more.</p><p>Of course, if you prefer we handle it for you then we are more than happy to do so!</p>"
+
 testimonials = true
  Testimonial = "Hayden is a highly creative individual and I would strongly recommend him to any company/individual who wants a web site which is up-to-the-minute and personalized. His ideas and concepts are a credit to him. He created a FANTASTIC new web site for my business. His after-care and customer service are second-to-none. Great to work with and extremely reliable."
 
@@ -35,9 +34,9 @@ testimonials = true
 ## Aircraft Detailing Company required Website + Rankings
 
 
-This is our third web development project with The Full Wax. We have been working with the company for a number of years.
+I have been working with Full Wax for over 6 years now and have developed 3 websites during that time. 
 
-What originally began as a flash website has been developed into an easy to manage, lightning fast Wordpress website.
+I took over the website when it was a flash website, and it has been developed into a DNN website and later into Wordpress as it was easier to maintain an more cost effective from a hosting point of view.
 
 The website loads very quickly and holds a first page ranking in Google for a number of keywords.
 
@@ -51,6 +50,14 @@ They also requested that:
 
 1. The website was secure.
 2. Daily, weekly and monthly off-site backups were maintained.
+
+## Hosting
+
+The Full Wax website is hosted with (in my opinion) the best hosting company in the UK. 
+
+I maintain daily on-site and off-site backups and have the website locked down with webarx. Using Webarx on all my sites means that I do not have to worry about hacking, malware or security.
+
+As an added extra, I have malware scanning on the server which spots anything that is not picked up by Webarx, but really webarx is that good that nothing is ever picked up!
 
 ## A distinct look and feel
 
