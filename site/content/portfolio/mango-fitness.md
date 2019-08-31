@@ -28,7 +28,12 @@ PortfolioURL = "https://mangofitness.co.uk"
 SummaryTitle = "Finally"
 SummaryContent = "<p>We provided hosting on our UK based datacentre</p><p>Our websites are isolated which means that a website cannot affect another site if it is infected with malware. It also means that you have full control of your website via Cpanel and are free to take backups, make new email accounts, FTP accounts and more.</p><p>Of course, if you prefer we handle it for you then we are more than happy to do so!</p>"
 testimonials = true
- Testimonial = "Hayden is a highly creative individual and I would strongly recommend him to any company/individual who wants a web site which is up-to-the-minute and personalized. His ideas and concepts are a credit to him. He created a FANTASTIC new web site for my business. His after-care and customer service are second-to-none. Great to work with and extremely reliable..."
+ Testimonial = "Hayden helped me to establish work on my website - old and new ones, very professional, always has new ideas and updates which are quite useful and precise, and helped me with my business development too. I highly recommend his services."
+ TestimonialImage = "/v1567287666/yelena_zfvtii.jpg"
+ TestimonialImageWebp = "/v1567287666/yelena_zfvtii.webp"
+ TestimonialName = "Elena Paul"
+ TestimonialCompanyName = "Mango Fitness"
+ TestimonialCompanyURL = "https://mangfofitness.co.uk"
 
 
 +++

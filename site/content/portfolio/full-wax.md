@@ -28,6 +28,11 @@ PortfolioURL = "https://fullwax.com"
 
 testimonials = true
  Testimonial = "Hayden is a highly creative individual and I would strongly recommend him to any company/individual who wants a web site which is up-to-the-minute and personalized. His ideas and concepts are a credit to him. He created a FANTASTIC new web site for my business. His after-care and customer service are second-to-none. Great to work with and extremely reliable."
+ TestimonialImage = "/v1566595714/zoe_varzi.jpg"
+ TestimonialImageWebp = "/v1566595714/zoe_varzi.webp"
+ TestimonialName = "Zoe Varzi"
+ TestimonialCompanyName = "The Full Wax Ltd"
+ TestimonialCompanyURL = "https://fullwax.com"
 
 
 +++

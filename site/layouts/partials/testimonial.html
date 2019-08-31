@@ -1,10 +1,20 @@
 {{ if .Params.testimonials}}
      <div class="testimonial uk-margin">
             <div class="text">{{ .Params.Testimonial }}</div>
-            <div class="img"><img src="img/quote-michelle-unger.png" alt="person"></div>
+            <div class="img">
+              <picture>
+                <source width="144" height="144"
+                     srcset="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.TestimonialImageWebP }}" type="image/webp">
+                <source width="144" height="144"
+                     srcset="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.TestimonialImage }}"
+                     type="image/jpeg">
+                <img width="144" height="144"
+                     src="{{ $.Site.Params.cloudinary_base_url }}/w_351{{ .Params.TestimonialImage }}" alt="{{.Title}}" />
+           </picture>
+            </div>
             <div class="info">
-              <p>Zoe Varzi - Director</p>
-              <a href="https://fullwax.com">The Full Wax ltd</a>
+              <p>{{ .Params.TestimonialName }}</p>
+              <a target="_blank" href="{{ .Params.TestimonialCompanyURL }}">{{ .Params.TestimonialCompanyName }}</a>
             </div>
           </div>
     {{ end }}
