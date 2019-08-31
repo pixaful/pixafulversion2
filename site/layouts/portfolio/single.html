@@ -54,15 +54,7 @@
           {{ with .Params.SummaryContent }}{{ . | safeHTML }}{{ end }}
           </div>
            {{ partial "testimonial" . }}
-          <div class="cta uk-padding uk-card-secondary">
-            <h2 class="h1 uk-text-center">If you want to take your website to the next level, I've got the experience to get you
-              there.</h2>
-            <p class="uk-text-center">
-              Since 2006, we've helped small businesses, Fortune 500 companies, and entrepreneurs build better products with
-              forward-thinking design, data-driven insight, and improved user experiences.
-            </p>
-            <a class="btn btn-primary" href="/get-started/"><span>Let's get started</span></a>
-          </div>
+           {{ partial "cta" . }}
         </main>
    
 {{ end }}

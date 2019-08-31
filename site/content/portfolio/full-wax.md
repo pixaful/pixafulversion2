@@ -55,7 +55,7 @@ They also requested that:
 
 The Full Wax website is hosted with (in my opinion) the best hosting company in the UK. 
 
-I maintain daily on-site and off-site backups and have the website locked down with webarx. Using Webarx on all my sites means that I do not have to worry about hacking, malware or security.
+I maintain daily on-site and off-site backups and have the website locked down with Webarx. Using Webarx on all my sites means that I do not have to worry about hacking, malware or security.
 
 As an added extra, I have malware scanning on the server which spots anything that is not picked up by Webarx, but really webarx is that good that nothing is ever picked up!
 
