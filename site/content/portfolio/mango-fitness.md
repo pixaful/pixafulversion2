@@ -33,7 +33,7 @@ testimonials = true
  TestimonialImageWebp = "/v1567287666/yelena_zfvtii.webp"
  TestimonialName = "Elena Paul"
  TestimonialCompanyName = "Mango Fitness"
- TestimonialCompanyURL = "https://mangfofitness.co.uk"
+ TestimonialCompanyURL = "https://mangofitness.co.uk"
 
 
 +++
