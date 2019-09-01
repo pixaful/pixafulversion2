@@ -66,7 +66,7 @@ As an added extra, I have malware scanning on the server which spots anything th
 
 ## A distinct look and feel
 
-The brand is an all black design with a silver logo. The vans have them as does the company business card. This is reflected throughout the website which is responsive from mobile to desktop.
+The brand is an all black design with a silver logo. The Full Wax company vans include the silver logo as does the company business card. This is reflected throughout the website which is responsive from mobile to desktop.
 
 
 ## SEO

@@ -1,10 +1,11 @@
 {{ define "main" }}
 <div class="topheader site-header">
-  <h1>Blog</h1>
+    <h1>Portfolio</h1>
 </div>
 <main class="site-content">
+
      {{.Content}}
-     {{ $paginator := .Paginate (where .Site.RegularPages "Type" "blog") }}
+     {{ $paginator := .Paginate (where .Site.RegularPages "Type" "portfolio") }}
      {{ range .Paginator.Pages }}
  
  
