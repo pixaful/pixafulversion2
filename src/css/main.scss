@@ -414,6 +414,24 @@ body {
 
 }
 
+
+.singlelegal {
+  display:grid;
+  grid-template-columns:2fr 8fr;
+  grid-gap:50px;
+  margin:50px 0px 50px 0px;
+  h2,h3 {
+    margin-top:0px;
+    margin-bottom:0px;
+  }
+
+  .singlecontent {
+    padding-left:20px;
+    border-left: dotted 2px #a7a7a7;
+  }
+
+}
+
 .singleblog {
   display:grid;
   grid-template-columns:8fr 4fr;
