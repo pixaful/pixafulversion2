@@ -191,9 +191,7 @@ This privacy policy should be read alongside, and in addition to, our Terms and 
 <ol start="13">
 <li>We may use your Data to show you Hayden Tomas adverts and other content on other websites. If you do not want us to use your data to show you Hayden Tomas adverts and other content on other websites, please turn off the relevant cookies (please refer to the section headed "Cookies" below).</li>
 </ol>
-
 <h3>Keeping data secure</h3>
-
 <ol start="14">
 <li>We will use technical and organisational measures to safeguard your Data, for example:</li>
 </ol>
@@ -201,8 +199,6 @@ This privacy policy should be read alongside, and in addition to, our Terms and 
 <li>a) access to your account is controlled by a password and a user name that is unique to you.</li>
 <li>b) we store your Data on secure servers.</li>
 </ul>
-
-
 <ol start="15">
 <li>Technical and organisational measures include measures to deal with any suspected data breach. If you suspect any misuse or loss or unauthorised access to your Data, please let us know immediately by contacting us via this e-mail address: hello@pixaful.com.</li>
 </ol>
