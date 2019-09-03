@@ -28,7 +28,7 @@ layout = "legal"
 
 ## Privacy Policy
 
-This privacy policy applies between you, the User of this Website and Hayden tomas, the owner and provider of this Website. Hayden tomas takes the privacy of your information very seriously. This privacy policy applies to our use of any and all Data collected by us or provided by you in relation to your use of the Website.
+This privacy policy applies between you, the User of this Website and Hayden Tomas, the owner and provider of this Website. Hayden Tomas takes the privacy of your information very seriously. This privacy policy applies to our use of any and all Data collected by us or provided by you in relation to your use of the Website.
 This privacy policy should be read alongside, and in addition to, our Terms and Conditions, which can be found at: pixaful.com/terms.
 
 **Please read this privacy policy carefully.**
@@ -74,7 +74,7 @@ This privacy policy should be read alongside, and in addition to, our Terms and 
         </tr>
         <tr>
             <td><strong>User or you</strong></td>
-            <td>any third party that accesses the Website and is not either (i) employed by Hayden tomas and acting in the course of their employment or (ii) engaged as a consultant or otherwise providing services to Hayden tomas and accessing the Website in connection with the provision of such services; and</td>
+            <td>any third party that accesses the Website and is not either (i) employed by Hayden Tomas and acting in the course of their employment or (ii) engaged as a consultant or otherwise providing services to Hayden Tomas and accessing the Website in connection with the provision of such services; and</td>
         </tr>
           <tr>
             <td><strong>Website</strong></td>
@@ -97,10 +97,10 @@ This privacy policy should be read alongside, and in addition to, our Terms and 
 <h3><a name="scope"></a>Scope of this privacy policy</h3>
 
 <ol start="3">
-<li> This privacy policy applies only to the actions of Hayden tomas and Users with respect to this Website. It does not extend to any websites that can be accessed from this Website including, but not limited to, any links we may provide to social media websites.</li>
+<li> This privacy policy applies only to the actions of Hayden Tomas and Users with respect to this Website. It does not extend to any websites that can be accessed from this Website including, but not limited to, any links we may provide to social media websites.</li>
 </ol>
 <ol start="4">
-<li>For purposes of the applicable Data Protection Laws, Hayden Tomas is the "data controller". This means that Hayden tomas determines the purposes for which, and the manner in which, your Data is processed.</li>
+<li>For purposes of the applicable Data Protection Laws, Hayden Tomas is the "data controller". This means that Hayden Tomas determines the purposes for which, and the manner in which, your Data is processed.</li>
 </ol>
 
 <h3><a name="datacollected"></a>Data collected</h3>
@@ -146,7 +146,7 @@ This privacy policy should be read alongside, and in addition to, our Terms and 
 <h3><a name="datareceived"></a>Data that is received from third parties</h3>
 
 <ol start="8">
-<li>Hayden tomas will receive Data about you from the following third parties:</li>
+<li>Hayden Tomas will receive Data about you from the following third parties:</li>
 </ol>
 <ul class="uk-list uk-list-divider uk-margin-left">
 <li>a) Google Analytics</li>
@@ -236,13 +236,13 @@ This privacy policy should be read alongside, and in addition to, our Terms and 
 </ol>
 <h3><a name="changesofownership"></a>Changes of business ownership and control</h3>
 <ol start="24">
-<li>Hayden tomas may, from time to time, expand or reduce our business and this may involve the sale and/or the transfer of control of all or part of Hayden tomas. Data provided by Users will, where it is relevant to any part of our business so transferred, be transferred along with that part and the new owner or newly controlling party will, under the terms of this privacy policy, be permitted to use the Data for the purposes for which it was originally supplied to us.</li>
+<li>Hayden Tomas may, from time to time, expand or reduce our business and this may involve the sale and/or the transfer of control of all or part of Hayden Tomas. Data provided by Users will, where it is relevant to any part of our business so transferred, be transferred along with that part and the new owner or newly controlling party will, under the terms of this privacy policy, be permitted to use the Data for the purposes for which it was originally supplied to us.</li>
 <li>We may also disclose Data to a prospective purchaser of our business or any part of it.</li>
 <li>In the above instances, we will take steps with the aim of ensuring your privacy is protected.</li>
 </ol>
 <h3><a name="cookies"></a>Cookies</h3>
 <ol start="27" >
-<li>This Website may place and access certain Cookies on your computer. Hayden Tomas uses Cookies to improve your experience of using the Website and to improve our range of products and services. Hayden tomas has carefully chosen these Cookies and has taken steps to ensure that your privacy is protected and respected at all times.</li>
+<li>This Website may place and access certain Cookies on your computer. Hayden Tomas uses Cookies to improve your experience of using the Website and to improve our range of products and services. Hayden Tomas has carefully chosen these Cookies and has taken steps to ensure that your privacy is protected and respected at all times.</li>
 <li>All Cookies used by this Website are used in accordance with current UK and EU Cookie Law.</li>
 <li>Before the Website places Cookies on your computer, you will be presented with a message bar requesting your consent to set those Cookies. By giving your consent to the placing of Cookies, you are enabling Hayden Tomas to provide a better experience and service to you. You may, if you wish, deny consent to the placing of Cookies; however certain features of the Website may not function fully or as intended.</li>
 <li>You can find a list of Cookies that we use in the Cookies Schedule.</li>
@@ -260,7 +260,7 @@ This privacy policy should be read alongside, and in addition to, our Terms and 
 </ol>
 <h3>Changes to this privacy policy</h3>
 <ol start="39">
-<li>Hayden tomas reserves the right to change this privacy policy as we may deem necessary from time to time or as may be required by law. Any changes will be immediately posted on the Website and you are deemed to have accepted the terms of the privacy policy on your first use of the Website following the alterations.   You may contact Hayden tomas by email at hello@pixaful.com.</li>
+<li>Hayden Tomas reserves the right to change this privacy policy as we may deem necessary from time to time or as may be required by law. Any changes will be immediately posted on the Website and you are deemed to have accepted the terms of the privacy policy on your first use of the Website following the alterations.   You may contact Hayden Tomas by email at hello@pixaful.com.</li>
 </ol>
 
 
