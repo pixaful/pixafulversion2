@@ -17,7 +17,9 @@ tags = "Development"
 
 +++
 
-## Static Website Development - Should you bother?
+## Static Website Development with Hugo
+
+As a web developer, I am not based to one CMS. Each as it's strengths and weaknesses
 
 For most of my career I have used Wordpress as my weapon of choice for developing websites for small business clients. 
 
@@ -30,7 +32,6 @@ For Wordpress I tend to roll my own theme, use advanced custom fields and I don'
 Elementor being a page builder means that you end up with code in your source code that you didn't ask for, but that is the price of convenience.
 
 As I am a curious developer, I wanted to give static sites a try. I would go so far as to say that static sites are very useable for clients that have sites that do not change much. Brochure websites and basic pages work well with static sites. 
-
 
 
 For years I have been working on a variety of content management systems. I have worked with Magento, DNN, CraftCMS, Wordpress, Shopify and more. Usually I roll WordPress.

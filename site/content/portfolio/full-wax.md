@@ -36,41 +36,34 @@ testimonials = true
 
 
 +++
-## Aircraft Detailing Company required Website + Rankings
+## Holding first page rankings for over 3 years
 
+<h4><strong>The company</strong></h4>
 
-I have been working with Full Wax for over 6 years now and have developed 3 websites during that time. 
+The Full Wax is an aircraft detailing company based in Farnborough Airport and have been working on aircraft since 2001. 
 
-I took over the website when it was a flash website, and it has been developed into a DNN website and later into Wordpress as it was easier to maintain an more cost effective from a hosting point of view.
+The Full Wax currently detail for the majority of VIP clients coming into airports primarily in London and the South East, and anywhere else they are needed; even outside of the UK. Although they are based out of Farnborough airport, they also operate according to client preference and flight pattern out of various other UK airports, provided it is financially viable. 
 
-The website loads very quickly and holds a first page ranking in Google for a number of keywords.
+When The Full Wax approached me for a website, the requirement was for a fast loading, easy to manage, Google ready website that would take them to the top of the search engines for their chosen keywords.
 
-The client wanted to:
+I commissioned to make the website easier to navigate and truly interactive.
 
-1. Manage the website.
-2. Create their own templates using a pre defined set of blocks.
-3. Update the content whenever they like without having to ask me to do it.
+Having been very pleased with the initial results achieved, I was commissioned to continue working on The Full Wax website to provide on-going support and seo services. I have also been asked to add further functionality to the website and ensure that it remained relevant.
 
-They also requested that:
+<h4><strong>The work</strong></h4>
 
-1. The website was secure.
-2. Daily, weekly and monthly off-site backups were maintained.
+The work carried out for The Full Wax varied in scope and complexity, but has always has an end goal for maintaining The Full Wax as the number one company for aircraft detailing.
 
-## Hosting
+As well as developing three websites for The Full Wax over thge years, using different content management systems before settling on Wordpress, I have also added a wide range of functionality including a gallery and page builder to allow the client to manage the website themselves.
 
-The Full Wax website is hosted with (in my opinion) the best hosting company in the UK. 
+I have also included security which ensures hackers stay out. To date the website has not had a security issue and has not been hacked. I use webarx security for all my client websites.
 
-I maintain daily on-site and off-site backups and have the website locked down with Webarx. Using Webarx on all my sites means that I do not have to worry about hacking, malware or security.
+To top it off, I maintain regular backups, both on-site and off-site which are taken twice daily. Ask me about my website maintenance services
 
-As an added extra, I have malware scanning on the server which spots anything that is not picked up by Webarx, but really webarx is that good that nothing is ever picked up!
+<h4><strong>The outcome</strong></h4>
 
-## A distinct look and feel
+I have been providing website development services to The Full Wax for a number of years now.
 
-The brand is an all black design with a silver logo. The Full Wax company vans include the silver logo as does the company business card. This is reflected throughout the website which is responsive from mobile to desktop.
+The Full Wax has maintained it's status as the number one company for aircraft detailing in Farnborough Airport.
 
-
-## SEO
-
-Every page has been well optimised with SEO best practices, including open graph, twitter cards. 
-
-I am currently developing a personalised SEO programme for The Full Wax which will ensure that the company continues to thrive in 2019 and 2020.
+With my continued work on The Full Wax brand, including website development, seo services, security and more, the business continues to thrive online.
