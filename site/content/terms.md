@@ -36,9 +36,6 @@ In these terms and conditions, User or Users means any third party that accesses
 
 You must be at least 18 years of age to use this Website. By using the Website and agreeing to these terms and conditions, you represent and warrant that you are at least 18 years of age.
 
-
-**Please read this privacy policy carefully.**
-
 <h3><a name="intellectualproperty"></a>Intellectual property and acceptable use</h3>
 
 
