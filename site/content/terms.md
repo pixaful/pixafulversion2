@@ -98,5 +98,5 @@ You must be at least 18 years of age to use this Website. By using the Website a
 </ol>
 <h3>Hayden Tomas  details</h3>
 <ol start="23">
-<li>Hayden Tomas of 90 Yerbury Road, islington, London, N19 4RS operates the Website pixaful.com. You can contact Hayden Tomas  by email on hello@pixaful.com.</li>
+<li>Hayden Tomas of 90 Yerbury Road, Islington, London, N19 4RS operates the Website pixaful.com. You can contact Hayden Tomas  by email on hello@pixaful.com.</li>
 </ol>
