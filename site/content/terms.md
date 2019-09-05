@@ -20,7 +20,7 @@ twitterimage = ""
 twittersite = ""
 twittertitle = ""
 twitterurl = ""
-layout = "legal"
+layout = "terms"
 
 
 
