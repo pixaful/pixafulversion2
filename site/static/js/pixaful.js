@@ -68,25 +68,28 @@ btn.on('click', function (e) {
     }
   });
 
-$(document).ready(function () {
+
   $('.owl-carousel').owlCarousel({
-    margin: 150,
-    loop: false,
-    margin: 50,
-    nav: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 2
-      },
-      1000: {
-        items: 3
-      }
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:false
+        }
     }
-  })
-});
+})
+
 
 if ($('#back-to-top').length) {
   var scrollTrigger = 100, // px
