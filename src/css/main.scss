@@ -156,7 +156,9 @@ a {
 .tagged a {
   color:#ffffff;
 }
-
+.logo {
+  text-align: center;
+}
 
 /* Intro */
 
@@ -379,10 +381,15 @@ body {
   grid-template-columns:1fr 1fr;
   grid-gap:20px;
 }
-
+.logo {
+  text-align: left;
+}
 }
 
 @media only screen and (min-width: 1280px) {
+  .logo {
+    text-align: left;
+}
 .intro {
   display:grid;
   grid-template-columns: 5fr 8fr;
