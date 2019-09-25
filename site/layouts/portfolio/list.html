@@ -1,62 +1,33 @@
 {{ define "main" }}
 <div class="topheader site-header">
-    <h1>Portfolio</h1>
+  <h1>Portfolio</h1>
 </div>
 <main class="site-content">
-
-     {{.Content}}
-     {{ $paginator := .Paginate (where .Site.RegularPages "Type" "portfolio") }}
-     {{ range .Paginator.Pages }}
- 
- 
-
-    
-  
-
-  
-    <div class="singleproject">
-      <div class="featured">
-       
-          <div class="singleblogs"><div class="singleintro">
-                    <div class="uk-card uk-margin uk-card-body uk-card-default">
-                         
-                                  
-                                      
-                                             <img class="uk-align-left uk-margin-remove-adjacent" src="{{ $.Site.Params.cloudinary_base_url }}/w_251{{ .Params.featured_image }}" alt="{{.Title}}"/>
-                                
-                                   <div>
-                                        <div class="tagged uk-card-badge uk-label" style="background-color:{{ .Params.tagColor }}">  {{ with .Params.Tags }}
-      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
-      {{ end }}</div>
-                                      
-                                        <h2><a href="{{.Permalink }}">{{.Title}}</a></h2>
-                                        <small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>    
-                                          
-                                        <p>{{.Summary}}</p>
-                                   </div>
-                              
-                         </div>
-    {{ end }}
-     {{ partial "pagination" .}}
-
-
-
- 
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-  <div class="cta uk-padding uk-card-secondary">
-    <h2 class="h1 uk-text-center">If you want to take your website to the next level, I've got the experience to get you there.</h2>
-    <p class="uk-text-center">
-      Since 2006, we've helped small businesses, Fortune 500 companies, and entrepreneurs build better products with
-      forward-thinking design, data-driven insight, and improved user experiences.
-    </p>
-    <a class="btn btn-primary" href="/get-started/"><span>Let's get started</span></a>
+  {{.Content}}
+  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "portfolio") }}
+  {{ range .Paginator.Pages }}
+  <!--start of div-->
+<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+  <a href="{{.Permalink }}">
+  <div class="uk-card-media-left uk-cover-container">
+    <img class="uk-align-left uk-margin-remove-adjacent"
+      src="{{ $.Site.Params.cloudinary_base_url }}/w_600{{ .Params.featured_image }}" alt="{{.Title}}" uk-cover/>
+    <canvas width="600" height="400"></canvas>
   </div>
- 
+</a>
+  <div>
+    <div class="uk-card-body">
+            <h2><a href="{{.Permalink }}">{{.Title}}</a></h2>
+        <p>{{.Summary}}</p>
+        <a href="{{.Permalink }}"><button class="uk-button uk-align-right uk-button-secondary uk-button-small">View case study</button></a>
+    </div>
+  </div>
+</div>
+          <!--end of div-->
+          {{ end }}
+          {{ partial "pagination" .}}
+  {{ partial "cta" . }}
+
 </main>
 
 {{ end }}
