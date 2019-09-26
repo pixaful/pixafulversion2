@@ -16,7 +16,7 @@
   <meta name="twitter:site" content="@pixaful">
   <meta name="twitter:creator" content="@pixaful">
   <meta name="twitter:title" content="Conversion-focused website development ¦¦ Pixaful">
-  <meta property="twitter:url" content="https://pixaful.dev" />
+  <meta property="twitter:url" content="https://www.pixaful.com" />
   <meta name="twitter:description" content="Conversion-focused website development for small to medium-sized businesses in Buckinghamshire">
   <meta name="twitter:image" content="home">
   <meta property="og:title" content="home" />
@@ -32,7 +32,7 @@
   <meta name="twitter:site" content="@pixaful">
   <meta name="twitter:creator" content="@pixaful">
   <meta name="twitter:title" content="{{ .Params.twittertitle }}">
-  <meta property="twitter:url" content="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}{{ .Permalink | absURL }}" />
+  <meta property="twitter:url" content="https://www.pixaful.com{{ .Permalink }}" />
   <meta name="twitter:description" content="{{ .Params.twitterdescription }}">
   <meta name="twitter:image" content="{{ $.Site.Params.cloudinary_base_url }}/w_1200{{ .Params.featured_image }}">
   <meta property="og:title" content="{{ .Params.ogtitle }}" />
