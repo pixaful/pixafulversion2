@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="topheader site-header">
+  <h1>Services</h1>
+</div>
+<main class="site-content">
+  {{.Content}}
+  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "services") }}
+  {{ range .Paginator.Pages }}
+  <!--start of div-->
+<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+  <a href="{{.Permalink }}">
+  <div class="uk-card-media-left uk-cover-container">
+    <img class="uk-align-left uk-margin-remove-adjacent"
+      src="{{ $.Site.Params.cloudinary_base_url }}/w_600{{ .Params.featured_image }}" alt="{{.Title}}" uk-cover/>
+    <canvas width="600" height="400"></canvas>
+  </div>
+</a>
+  <div>
+    <div class="uk-card-body">
+            <h2><a href="{{.Permalink }}">{{.Title}}</a></h2>
+        <p>{{.Summary}}</p>
+        <a href="{{.Permalink }}"><button class="uk-button uk-align-right uk-button-secondary uk-button-small">View case study</button></a>
+    </div>
+  </div>
+</div>
+          <!--end of div-->
+          {{ end }}
+          {{ partial "pagination" .}}
+  {{ partial "cta" . }}
+
+</main>
+
+{{ end }}

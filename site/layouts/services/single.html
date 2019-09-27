@@ -1,0 +1,60 @@
+{{ define "main" }}
+
+
+
+        <main class="site-content">
+          <div class="singleproject">
+            <div class="featured">
+              <div class="image-box">
+            
+                <picture>
+                    <source srcset="{{ $.Site.Params.cloudinary_base_url }}/w_1332{{ .Params.webp_version }}" type="image/webp">
+                    <source srcset="{{ $.Site.Params.cloudinary_base_url }}/w_1332{{ .Params.featured_image }}" type="image/jpeg">
+                    <img src="{{ $.Site.Params.cloudinary_base_url }}/w_1332{{ .Params.featured_image }}" alt="{{.Title}}" />
+                  </picture>
+              </div>
+              <div class="singlemain">
+                <div class="singleintro" data-sticky-container data-sticky-for="1280">
+                  <div class="sticky">
+                  {{ partial "portfolio-intro" . }}
+                  </div>
+                </div>
+                <div class="singlecontent">
+                  <div class="sticker">
+                 
+                      {{ .Content }}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="triplepics">
+            <div class="image">
+              <div class="image-box">
+                      <picture>
+                        <source srcset="{{ $.Site.Params.cloudinary_base_url }}/w_641{{ .Params.webp_version2 }}" type="image/webp">
+                        <source srcset="{{ $.Site.Params.cloudinary_base_url }}/w_641{{ .Params.featured_image2 }}" type="image/jpeg">
+                        <img src="{{ $.Site.Params.cloudinary_base_url }}/w_641{{ .Params.featured_image2 }}" alt="{{ .Params.v2title }}" />
+                      </picture>
+              </div>
+            </div>
+            <div class="image">
+              <div class="image-box">
+                      <picture>
+                        <source srcset="{{ $.Site.Params.cloudinary_base_url }}/w_641{{ .Params.webp_version3 }}" type="image/webp">
+                        <source srcset="{{ $.Site.Params.cloudinary_base_url }}/w_641{{ .Params.featured_image3 }}" type="image/jpeg">
+                        <img src="{{ $.Site.Params.cloudinary_base_url }}/w_641{{ .Params.featured_image3 }}" alt="{{ .Params.v3title }}" />
+                      </picture>
+              </div>
+            </div>
+        
+          </div>
+          <div class="summary">
+            <h2>{{ .Params.SummaryTitle }}</h2>
+          {{ with .Params.SummaryContent }}{{ . | safeHTML }}{{ end }}
+          </div>
+           {{ partial "testimonial" . }}
+           {{ partial "cta" . }}
+        </main>
+   
+{{ end }}
