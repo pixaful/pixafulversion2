@@ -1,6 +1,6 @@
 +++
 date = "2019-07-18T23:00:00+00:00"
-title = "Full Wax"
+title = "Website Development"
 description = "Website development for aircraft detailing company based in farnborough Airport"
 featured_image = "/v1566910638/full-wax-main_ra3gw7.png"
 webp_version = "/v1566910638/full-wax-main_ra3gw7.webp"
