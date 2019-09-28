@@ -1,8 +1,27 @@
 {{ define "main" }}
-<div class="topheader site-header">
-  <h1>Portfolio</h1>
-</div>
+
 <main class="site-content">
+    <div class="intro">
+        <div class="image">
+          <picture>
+            <source width="533" height="603"
+              srcset="https://res.cloudinary.com/pixaful/image/upload/w_533/v1569539976/services-umbrella_ryt9fb.webp"
+              type="image/webp" />
+            <source width="533" height="603"
+              srcset="https://res.cloudinary.com/pixaful/image/upload/w_533/v1569539976/services-umbrella_ryt9fb.png"
+              type="image/png" />
+            <img width="533" height="603"
+              src="https://res.cloudinary.com/pixaful/image/upload/w_533/v1569539976/services-umbrella_ryt9fb.png"
+              alt="Website develeopment and consultation services" />
+          </picture>
+        </div>
+        <div class="text">
+          <h1>Pixaful Portfolio</h1>
+          <h2>For online business</h2>
+          <p class="lead">I offer a range of website services for businesses, contractors and startups. Ensuring that you remain visible to the people that matter.  </p>
+          <p>Work does not stop once your website is built. That is only the beginning of the story. Let's make it a success!</p>
+        </div>
+      </div>
   {{.Content}}
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "portfolio") }}
   {{ range .Paginator.Pages }}
