@@ -22,6 +22,7 @@
           <p>I have developed e-commerce sites, brochure sites, membership websites and more for local and national companies. Please take a look at the examples below, if you like what you see then get in touch.</p>
         </div>
       </div>
+  
   {{.Content}}
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "portfolio") }}
   {{ range .Paginator.Pages }}
