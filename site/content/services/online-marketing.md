@@ -18,8 +18,8 @@ ogdescription = "Personal trainer for women and children required a membership w
 ogimage = "/v1566978302/mango-fitness-main_dayncg.jpg"
 sideheading = "This is the side heading and can be as \"long\" as it needs to be..."
 summary = "<p>A complete online marketing service for UK business.</p><p>Covering email marketing, search engine optimisation, search engine marketing and social media.</p>"
-PortfolioTitle = "Mango Fitness"
-PortfolioIntro = 'Personal trainer for women and children required a membership website to manage her growing client base.'
+PortfolioTitle = "Online Marketing"
+PortfolioIntro = 'A complete online marketing service for UK business.'
 PortfolioURL = "https://mangofitness.co.uk"
 SummaryTitle = "Finally"
 SummaryContent = "<p>We provided hosting on our UK based datacentre</p><p>Our websites are isolated which means that a website cannot affect another site if it is infected with malware. It also means that you have full control of your website via Cpanel and are free to take backups, make new email accounts, FTP accounts and more.</p><p>Of course, if you prefer we handle it for you then we are more than happy to do so!</p>"
@@ -33,18 +33,9 @@ testimonials = true
 
 
 +++
-## Managing a growing client based is now a breeze for Mango Fitness
+## Covering email marketing, search engine optimisation, search engine marketing and social media.
 
-Mango Fitness is a long standing client for which I have developed websites and online marketing material for email campaigns.
-
-I used Wordpress for this project alongside Elementor and GeneratePress.
-
-A page builder was an obvious choice for this project.
-A tight budget and the conversations we have on the telephone to discuss projects means I can do quick changes on the fly.
-
-The client can see them before the converation has even finished.
-
-The site loads very quickly and is packed with engaging elements throughout.
+We provide online marketing services to UK businesses.
 
 
 The client wanted to:

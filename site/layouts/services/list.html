@@ -32,6 +32,7 @@
   <link href="{{ relURL . }}" rel="stylesheet">{{ end }}
 </head>
 <body>
+    {{ block "header" . }}{{ partial "header" . }}{{end}}
 <main class="site-content">
 
   <div class="intro">
