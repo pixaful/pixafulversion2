@@ -1,53 +1,12 @@
-{{ define "main" }}
-
-<main class="site-content">
-
-      <div class="intro">
-        <div class="image">
-          <picture>
-            <source width="533" height="603"
-              srcset="https://res.cloudinary.com/pixaful/image/upload/w_533/v1569539976/services-umbrella_ryt9fb.webp"
-              type="image/webp" />
-            <source width="533" height="603"
-              srcset="https://res.cloudinary.com/pixaful/image/upload/w_533/v1569539976/services-umbrella_ryt9fb.png"
-              type="image/png" />
-            <img width="533" height="603"
-              src="https://res.cloudinary.com/pixaful/image/upload/w_533/v1569539976/services-umbrella_ryt9fb.png"
-              alt="Website develeopment and consultation services" />
-          </picture>
-        </div>
-        <div class="text">
-          <h1>Website Services</h1>
-          <h2>For online business</h2>
-          <p class="lead">I offer a range of website services for businesses, contractors and startups. Ensuring that you remain visible to the people that matter.  </p>
-          <p>Work does not stop once your website is built. That is only the beginning of the story. Let's make it a success!</p>
-        </div>
-      </div>
-  {{.Content}}
-  {{ $paginator := .Paginate (where .Site.RegularPages "Type" "services") }}
-  {{ range .Paginator.Pages }}
-  <!--start of div-->
-<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-  <a href="{{.Permalink }}">
-  <div class="uk-card-media-left uk-cover-container">
-    <img class="uk-align-left uk-margin-remove-adjacent"
-      src="{{ $.Site.Params.cloudinary_base_url }}/w_600{{ .Params.featured_image }}" alt="{{.Title}}" uk-cover/>
-    <canvas width="600" height="400"></canvas>
-  </div>
-</a>
-  <div>
-    <div class="uk-card-body">
-            <h2><a href="{{.Permalink }}">{{.Title}}</a></h2>
-        <p>{{.Summary}}</p>
-        <a href="{{.Permalink }}"><button class="uk-button uk-align-right uk-button-secondary uk-button-small">Learn more</button></a>
-    </div>
-  </div>
-</div>
-          <!--end of div-->
-          {{ end }}
-          {{ partial "pagination" .}}
-  {{ partial "cta" . }}
-
-</main>
-
-{{ end }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  This right here
+</body>
+</html>
