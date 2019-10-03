@@ -11,7 +11,9 @@
   padding:20px;
 }
 
-
+ul li,ol li {
+  margin-bottom: 10px;
+}
 
 .pagination {
     display: flex;

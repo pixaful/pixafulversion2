@@ -35,7 +35,13 @@ testimonials = true
 +++
 ## Covering email marketing, search engine optimisation, search engine marketing and social media.
 
-We provide online marketing services to UK businesses.
+We provide online marketing services to UK businesses and cover the core services your business needs to get noticed online.
+
+Some of the marketing services we provide include:
+
+* <strong>Email Marketing</strong> - We provide a complete email marketing solution for any type of business. From email design to delivery.
+* <strong>Search Engine Optimisation</strong> - An advanced SEO plan specifically designed for your business.
+* <strong>Social media</strong> - Facebook, Twitter and Instagram management services.
 
 
 The client wanted to:
