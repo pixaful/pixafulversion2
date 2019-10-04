@@ -19,7 +19,7 @@ ogimage = "/v1566978302/mango-fitness-main_dayncg.jpg"
 sideheading = "This is the side heading and can be as \"long\" as it needs to be..."
 summary = "<p>A complete online marketing service for UK business.</p><p>Covering email marketing, search engine optimisation, search engine marketing and social media.</p>"
 PortfolioTitle = "Online Marketing"
-PortfolioIntro = 'A complete online marketing service for UK business.'
+PortfolioIntro = 'A complete online marketing service for UK businesses that want to achieve more.'
 PortfolioURL = "https://mangofitness.co.uk"
 SummaryTitle = "Finally"
 SummaryContent = "<p>We provided hosting on our UK based datacentre</p><p>Our websites are isolated which means that a website cannot affect another site if it is infected with malware. It also means that you have full control of your website via Cpanel and are free to take backups, make new email accounts, FTP accounts and more.</p><p>Of course, if you prefer we handle it for you then we are more than happy to do so!</p>"
@@ -33,34 +33,26 @@ testimonials = true
 
 
 +++
-## Covering email marketing, search engine optimisation, search engine marketing and social media.
+## Increase brand awareness, generate more leads and sales with our proven marketing strategies
 
-We provide online marketing services to UK businesses and cover the core services your business needs to get noticed online.
+We have been working with British companies for over 8 years. We have helped them remain relevant in the industries they represent year after year.
 
-Some of the marketing services we provide include:
+We do this using our own mix of proven online marketing strategies that have worked for us since day one.
 
-* <strong>Email Marketing</strong> - We provide a complete email marketing solution for any type of business. From email design to delivery.
-* <strong>Search Engine Optimisation</strong> - An advanced SEO plan specifically designed for your business.
-* <strong>Social media</strong> - Facebook, Twitter and Instagram management services.
+We know what works and what doesn't. We don't use tricks or tactics that fade away and we don't recommend anything to you that we don't use ourselves.
 
+Our process is simple
 
-The client wanted to:
+* Study your business and your clients
+* Devise a marketing plan that suits your business needs
+* Get to work
 
-1. Manage their existing client base via the website.
-2. Allow their clients to see progress reports, and updates via their own members area.
-3. Provide specific content to different levels of membership.
+We send you a monthly report on our work.
 
-They also requested that:
+### Our marketing services
 
-1. The website had good security so it could not be hacked.
-2. Back-ups were maintained on a schedule.
+We have a small selection of digital marketing services that are designed specifically to your requirements. Every business is different, so we do not have a one size fits digital marketing service.
 
-## A distinct look and feel
+### Search Engine Optimisation
 
-Mango Fitness is a very colourful website, I had lots to choose from as the logo had a dash of everything!
-
-
-## SEO
-
-Every page has been well optimised with SEO best practices, including open graph, twitter cards. 
-
+We offer a contract based SEO service. SEO is a service that takes time before you can see any real results.
