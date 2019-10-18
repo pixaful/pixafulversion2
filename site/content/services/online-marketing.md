@@ -35,24 +35,26 @@ testimonials = true
 +++
 ## Increase brand awareness, generate more leads and sales with our proven marketing strategies
 
-We have been working with British companies for over 8 years. We have helped them remain relevant in the industries they represent year after year.
+I have been working with British companies for over 8 years. I have helped them remain relevant in the industries they represent year after year.
 
-We do this using our own mix of proven online marketing strategies that have worked for us since day one.
+I do this using my own mix of proven online marketing strategies that have worked for my company since day one.
 
-We know what works and what doesn't. We don't use tricks or tactics that fade away and we don't recommend anything to you that we don't use ourselves.
+I know what works and what doesn't. I don't use tricks or tactics that fade away and I don't recommend anything to you that I don't personally use.
 
-Our process is simple
+My process is simple
 
 * Study your business and your clients
 * Devise a marketing plan that suits your business needs
 * Get to work
 
-We send you a monthly report on our work.
+I send you a monthly report on completed work.
 
-### Our marketing services
+### Marketing services
 
-We have a small selection of digital marketing services that are designed specifically to your requirements. Every business is different, so we do not have a one size fits digital marketing service.
+I have a small selection of digital marketing services that are designed specifically to your requirements. Every business is different, so I do not have a one size fits digital marketing service.
 
 ### Search Engine Optimisation
 
-We offer a contract based SEO service. SEO is a service that takes time before you can see any real results.
+I offer a contract based SEO service. SEO is a service that takes time before you can see any real results.
+
+I am happy to discuss your SEO requirements with you and create a plan every quarter. 
