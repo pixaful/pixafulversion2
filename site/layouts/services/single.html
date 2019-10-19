@@ -28,27 +28,7 @@
               </div>
             </div>
           </div>
-          <div class="triplepics">
-            <div class="image">
-              <div class="image-box">
-                      <picture>
-                        <source srcset="{{ $.Site.Params.cloudinary_base_url }}/w_641{{ .Params.webp_version2 }}" type="image/webp">
-                        <source srcset="{{ $.Site.Params.cloudinary_base_url }}/w_641{{ .Params.featured_image2 }}" type="image/jpeg">
-                        <img src="{{ $.Site.Params.cloudinary_base_url }}/w_641{{ .Params.featured_image2 }}" alt="{{ .Params.v2title }}" />
-                      </picture>
-              </div>
-            </div>
-            <div class="image">
-              <div class="image-box">
-                      <picture>
-                        <source srcset="{{ $.Site.Params.cloudinary_base_url }}/w_641{{ .Params.webp_version3 }}" type="image/webp">
-                        <source srcset="{{ $.Site.Params.cloudinary_base_url }}/w_641{{ .Params.featured_image3 }}" type="image/jpeg">
-                        <img src="{{ $.Site.Params.cloudinary_base_url }}/w_641{{ .Params.featured_image3 }}" alt="{{ .Params.v3title }}" />
-                      </picture>
-              </div>
-            </div>
-        
-          </div>
+          {{ partial "triple" . }}
           <div class="summary">
             <h2>{{ .Params.SummaryTitle }}</h2>
           {{ with .Params.SummaryContent }}{{ . | safeHTML }}{{ end }}
