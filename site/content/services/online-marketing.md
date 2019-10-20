@@ -69,11 +69,12 @@ SEO is a long term strategy, as such I offer SEO contracts for a minimum of 6 mo
 
 ### Email Marketing
 
-I offer an email marketing service that covers design, automation and reporting. I can also help with:
+I offer a bespoke email marketing service that is suitable for any type of business. I can offer:
 
 * Autoresponder sequences
 * Seasonal campaigns
 * Email Design
+* Reporting
 
 
 
