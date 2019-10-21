@@ -1,53 +1,93 @@
-{{ define "main" }}
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <base
+    href="{{ if getenv "CONTEXT" }}{{ cond (eq "production" (getenv "CONTEXT")) (getenv "URL") (getenv "DEPLOY_PRIME_URL") }}{{ else }}{{ $.Site.BaseURL }}{{ end }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <title>Portfolio ¦¦ Pixaful</title>
+  <meta name="description"
+    content="I develop website solutions for a diverse range of clients that range from small businesses to large multinationals." />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@pixaful">
+  <meta name="twitter:creator" content="@pixaful">
+  <meta name="twitter:title" content="Website Development Portfolio">
+  <meta property="twitter:url" content="https://www.pixaful.com" />
+  <meta name="twitter:description"
+    content="I develop website solutions for a diverse range of clients that range from small businesses to large multinationals.">
+  <meta name="twitter:image" content="https://res.cloudinary.com/pixaful/image/upload/v1571694337/portfolio-og.jpg">
+  <meta property="og:title" content="Website Development Portfolio" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description"
+    content="I develop website solutions for a diverse range of clients that range from small businesses to large multinationals." />
+  <meta property="og:image" content="https://res.cloudinary.com/pixaful/image/upload/v1571694337/portfolio-og.jpg" />
+  <meta property="og:url" content="https://pixaful.com" />
+  <meta property="og:site_name" content="home" />
+{{ $stylesheet := .Site.Data.webpack.main }}{{ with $stylesheet.css }}
+  <link href="{{ relURL . }}" rel="stylesheet">{{ end }}
+</head>
+<body>
+    {{ block "header" . }}{{ partial "header" . }}{{end}}
 <main class="site-content">
-    <div class="intro">
-        <div class="image">
-          <picture>
-            <source width="533" height="603"
-              srcset="https://res.cloudinary.com/pixaful/image/upload/w_533/v1569705116/portfolio-splash.webp"
-              type="image/webp" />
-            <source width="533" height="603"
-              srcset="https://res.cloudinary.com/pixaful/image/upload/w_533/v1569705116/portfolio-splash.png"
-              type="image/png" />
-            <img width="533" height="603"
-              src="https://res.cloudinary.com/pixaful/image/upload/w_533/v1569705116/portfolio-splash.png"
-              alt="Website develeopment and consultation services" />
-          </picture>
-        </div>
-        <div class="text">
-          <h1>Not your average</h1>
-          <h2>Website Portfolio</h2>
-          <p class="lead">I develop website solutions for a diverse range of clients that range from small businesses to large multinationals.</p>
-          <p>I have developed e-commerce sites, brochure sites, membership websites and more for local and national companies. Please take a look at the examples below, if you like what you see then get in touch.</p>
-        </div>
-      </div>
-  
+
+  <div class="intro">
+    <div class="image">
+      <picture>
+        <source width="533" height="603"
+          srcset="https://res.cloudinary.com/pixaful/image/upload/w_533/v1569705116/portfolio-splash.webp"
+          type="image/webp" />
+        <source width="533" height="603"
+          srcset="https://res.cloudinary.com/pixaful/image/upload/w_533/v1569705116/portfolio-splash.png"
+          type="image/png" />
+        <img width="533" height="603"
+          src="https://res.cloudinary.com/pixaful/image/upload/w_533/v1569705116/portfolio-splash.png"
+          alt="Website develeopment and consultation services" />
+      </picture>
+    </div>
+    <div class="text">
+      <h1>Not your average</h1>
+      <h2>Website Portfolio</h2>
+      <p class="lead">I develop website solutions for a diverse range of clients that range from small businesses to large multinationals.</p>
+      <p>I have developed e-commerce sites, brochure sites, membership websites and more for local and national companies. Please take a look at the examples below, if you like what you see then get in touch.</p>
+    </div>
+  </div>
   {{.Content}}
   {{ $paginator := .Paginate (where .Site.RegularPages "Type" "portfolio") }}
   {{ range .Paginator.Pages }}
   <!--start of div-->
-<div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
-  <a href="{{.Permalink }}">
-  <div class="uk-card-media-left uk-cover-container">
-    <img class="uk-align-left uk-margin-remove-adjacent"
-      src="{{ $.Site.Params.cloudinary_base_url }}/w_600{{ .Params.featured_image }}" alt="{{.Title}}" uk-cover/>
-    <canvas width="600" height="400"></canvas>
-  </div>
-</a>
-  <div>
-    <div class="uk-card-body">
-            <h2><a href="{{.Permalink }}">{{.Title}}</a></h2>
+  <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+    <a href="{{.Permalink }}">
+      <div class="uk-card-media-left uk-cover-container">
+        <img class="uk-align-left uk-margin-remove-adjacent"
+          src="{{ $.Site.Params.cloudinary_base_url }}/w_600{{ .Params.featured_image }}" alt="{{.Title}}" uk-cover />
+        <canvas width="600" height="400"></canvas>
+      </div>
+    </a>
+    <div>
+      <div class="uk-card-body">
+        <h2><a href="{{.Permalink }}">{{.Title}}</a></h2>
         <p>{{.Summary}}</p>
-        <a href="{{.Permalink }}"><button class="uk-button uk-align-right uk-button-secondary uk-button-small">View case study</button></a>
+        <a href="{{.Permalink }}"><button class="uk-button uk-align-right uk-button-secondary uk-button-small">Learn
+            more</button></a>
+      </div>
     </div>
   </div>
-</div>
-          <!--end of div-->
-          {{ end }}
-          {{ partial "pagination" .}}
+  <!--end of div-->
+  {{ end }}
+  {{ partial "pagination" .}}
   {{ partial "cta" . }}
 
 </main>
-
-{{ end }}
+  {{ block "footer" . }}{{ partial "footer" . }}{{end}}
+  {{/*  {{ $script := .Site.Data.webpack.main }}
+  {{ with $script.js }}
+  <script src="{{ relURL . }}"></script>
+  {{ end }} */}}
+  <script src="/js/pixaful.js" type="text/javascript"></script>
+</body>
+</html>
