@@ -1,7 +1,7 @@
 +++
 date = "2019-07-18T23:00:00+00:00"
 title = "Website Development"
-description = "Website development for aircraft detailing company based in farnborough Airport"
+description = "Website development services for lopcal businesses in Buckinghamshire"
 featured_image = "/v1569884569/website-development.jpg"
 webp_version = "/v1569884569/website-development.webp"
 triple = false
@@ -34,14 +34,12 @@ testimonials = true
 +++
 ## Your search for first class website development is over
 
-<h4><strong>Top seeded website development</strong></h4>
-
-I offer a website development service that offers more than templates and stock photos. If you are only looking for a pretty website for your business, look elsewhere.
+I offer a premium website development service. Hand crafted specifically to your business.
 
 My websites come with a stamp of quality that cannot be found anywhere else. 
 
-* **Coded with care** - I hand code websites, I don't use templates.
-* **Built for speed** - I ensure websites run like rockets.
+* **Coded with care** - I prefer to hand code. I use modern maintainable code.
+* **Built for speed** - Making sure your website loads as quickly as possible.
 * **SEO ready** - Making sure your website gets seen by the right people.
 
 Of course, this does not happen without proper planning, research and testing. I make it my business to understand your business and your competition.
@@ -56,12 +54,12 @@ A website developer that can offer tried and tested advice on what is working fo
 
 Unlike many other website developers, I prefer not to lead with my choice of content management system. The CMS is not what makes money for your business. What makes money for your business is:
 
-* An understanding of your cliemts online needs
-* Knowing how to turn a visitor into a prospect
-* Understanding UX so that a vistor can find the information they need quickly
-* Understanding how colour affects your ROI
+* An understanding of your clients online needs.
+* Knowing how to turn a visitor into a prospect.
+* Understanding UX for quick information retrieval.
+* Understanding how colour affects your ROI.
 
-The truth is that most website developers only care about making websites without thinking about the real reasons behind why the client wanted a website in the first place.
+The truth is that most website developers only care about making websites. They are building without considering real reasons behind the need for a website.
 
 If you want more than a website, get in touch!
 
