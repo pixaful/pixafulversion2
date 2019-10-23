@@ -33,6 +33,16 @@ testimonials = true
 +++
 ## Bad people are trying to hack your website right now
 
-Website security is an elemnt that is often overlooked by business owners. Often a business owner does not see the benefit until it is too late.
+The Pixaful website security service is insurance for your website.
+
+Website security is often overlooked by online business owners. Often a business owner does not see the benefit until it is too late.
 
 Hackers can get into any website at any time, however there are some measures you can take to make sure this does not happen.
+
+* Ensure your CMS is kept up to date
+* Use a good quality security service
+* Take regular on-site and off-site backups
+
+Popular content management systems like Wordpress and Magento get hacked attempts daily, you won't even know tehy are happening.
+
+Our security system can prevent all hack attempts on your website, and ensure that you remain
