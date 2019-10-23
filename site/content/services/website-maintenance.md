@@ -16,7 +16,6 @@ twitterimage = "/v1569885316/website-maintenance.jpg"
 ogtitle = "Website Maintenance by Pixaful"
 ogdescription = "Complete Security for any PHP based website and three layers of backups taken daily, weekly and monthly."
 ogimage = "/v1569885316/website-maintenance.jpg"
-sideheading = "This is the side heading and can be as \"long\" as it needs to be..."
 summary = "<p>I can maintain your website so you don't have to.</p><p>Ensuring uptime, security, backups and CMS updates are maintained.</p>"
 PortfolioTitle = "Website Maintenance"
 PortfolioIntro = 'Complete Security for any PHP based website and three layers of backups taken daily, weekly and monthly.'
@@ -61,7 +60,7 @@ The firewall does the following:
 
 * Block malicious traffic
 * Create custom firewall rules
-* Sends virtual patches to your webiste
+* Sends virtual patches to your website
 * Monitors your websites for possible security issues and vulnerabilities. 
 * Prevents malware infections
 * Generates weekly security reports and stay alerted when anything needs your immediate attention
