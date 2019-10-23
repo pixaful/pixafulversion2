@@ -29,6 +29,9 @@ testimonials = true
  TestimonialName = "Zoe Varzi"
  TestimonialCompanyName = "The Full Wax Ltd"
  TestimonialCompanyURL = "https://fullwax.com"
+ CTAHeadline ="Are you ready for a shiny new website for your online business?"
+CTASubline ="We have been building conversion-focused websites for business since 2011. Get in touch today to learn how Pixaful can help your business achive more online."
+FormTitle = "website development"
 
 
 +++

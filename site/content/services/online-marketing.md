@@ -31,6 +31,9 @@ testimonials = true
  TestimonialName = "Elena Paul"
  TestimonialCompanyName = "Mango Fitness"
  TestimonialCompanyURL = "https://mangofitness.co.uk"
+CTAHeadline ="Are you ready to generate fresh new leads for your business?"
+CTASubline ="We have been building conversion-focused websites for business since 2011. Get in touch today to learn how Pixaful can help your business achive more online."
+FormTitle = "online marketing"
 
 
 +++
