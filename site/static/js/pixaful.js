@@ -124,7 +124,7 @@ sticky.destroy();
     buttonColor: 'rgba(19, 154, 241, 1)',
     iconVisibility: true,
     cookiePolicyButtonText: 'Read our cookie Policy',
-    cookiePolicyButtonUrl: 'https://www/pixaful.com/cookies',
+    cookiePolicyButtonUrl: 'https://www.pixaful.com/cookies',
     cookiePolicyButtonTarget: '_blank',
     boxPosition: 'bottom-left',
     messageText: 'We use cookies to personalize your experience. By continuing to visit this website you agree to our use of cookies.'
