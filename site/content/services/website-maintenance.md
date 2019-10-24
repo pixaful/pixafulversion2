@@ -16,12 +16,13 @@ twitterimage = "/v1569885316/website-maintenance.jpg"
 ogtitle = "Website Maintenance by Pixaful"
 ogdescription = "Complete Security for any PHP based website and three layers of backups taken daily, weekly and monthly."
 ogimage = "/v1569885316/website-maintenance.jpg"
-sideheading = "This is the side heading and can be as \"long\" as it needs to be..."
 summary = "<p>I can maintain your website so you don't have to.</p><p>Ensuring uptime, security, backups and CMS updates are maintained.</p>"
 PortfolioTitle = "Website Maintenance"
 PortfolioIntro = 'Complete Security for any PHP based website and three layers of backups taken daily, weekly and monthly.'
 PortfolioURL = "https://fullwax.com"
 CTAHeadline ="Are you ready to secure your website and protect your data?"
+CTASubline ="We have been helping online businesses stay safe online. Protecting websites from hackers and ensuring your online reputation remains intact. If you would like help with website security, backups and maintenance, get in touch."
+FormTitle = "website maintenance"
 testimonials = true
  Testimonial = "Hayden is a highly creative individual and I would strongly recommend him to any company/individual who wants a web site which is up-to-the-minute and personalized. His ideas and concepts are a credit to him. He created a FANTASTIC new web site for my business. His after-care and customer service are second-to-none. Great to work with and extremely reliable."
  TestimonialImage = "/v1566595714/zoe_varzi.jpg"
@@ -59,7 +60,7 @@ The firewall does the following:
 
 * Block malicious traffic
 * Create custom firewall rules
-* Sends virtual patches to your webiste
+* Sends virtual patches to your website
 * Monitors your websites for possible security issues and vulnerabilities. 
 * Prevents malware infections
 * Generates weekly security reports and stay alerted when anything needs your immediate attention

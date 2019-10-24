@@ -13,7 +13,7 @@ twitterimage = "/uploads/hugo-design.jpg"
 twittertitle = "Static Website Development - Should you bother?"
 webp_version = "/v1565162320/hugo-static-site-design_kcix5y.webp"
 tagColor = "#ffcd30"
-tags = "Development"
+tags = "Website Development"
 
 +++
 
