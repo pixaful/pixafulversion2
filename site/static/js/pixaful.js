@@ -67,8 +67,6 @@ btn.on('click', function (e) {
       });
     }
   });
-
-
   $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
@@ -89,8 +87,6 @@ btn.on('click', function (e) {
         }
     }
 })
-
-
 if ($('#back-to-top').length) {
   var scrollTrigger = 100, // px
     backToTop = function () {
@@ -112,8 +108,11 @@ if ($('#back-to-top').length) {
     }, 700);
   });
 }
-
 var sticky = new Sticky('.sticky');
 sticky.destroy();
-
+$(window).on('load', function () { // makes sure the whole site is loaded 
+  $('#status').fadeOut(); // will first fade out the loading animation 
+  $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+  $('body').delay(350).css({ 'overflow': 'visible' });
+})
 
