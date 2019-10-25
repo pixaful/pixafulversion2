@@ -17,74 +17,17 @@ tags = "Website Security"
 
 +++
 
-## Static Website Development with Hugo
+## Boost your website security in 10 easy steps
 
-As a web developer, I am not based to one CMS. Each as it's strengths and weaknesses
+Intro paragraph goes here
 
-For most of my career I have used Wordpress as my weapon of choice for developing websites for small business clients. 
-
-Wordpress makes it very easy to build a website and hand it over. However it can be expensive to maintain with its security issues and updates. 
-
-To be fair to Wordpress, being the most popular CMS on the market will make you a target for hackers, in the same way that PC's get targetted more than macs.
-
-For Wordpress I tend to roll my own theme, use advanced custom fields and I don't really use plugins except for an SEO plugin. I might use Elementor for projects that require it or when the budget is lower and requires me to build things quicker.
-
-Elementor being a page builder means that you end up with code in your source code that you didn't ask for, but that is the price of convenience.
-
-As I am a curious developer, I wanted to give static sites a try. I would go so far as to say that static sites are very useable for clients that have sites that do not change much. Brochure websites and basic pages work well with static sites. 
-
-
-For years I have been working on a variety of content management systems. I have worked with Magento, DNN, CraftCMS, Wordpress, Shopify and more. Usually I roll WordPress.
-
-Until very recently I thought it was the dogs nuts, then they decided they wanted a bit of the old page builder action and I knew it was time to move on.
-
-Don't get me wrong. Page builders have their place. In fact I own licences for Divi, Elementor and Beaver Builder. The reason is simple. My Wordpress clients love them and have grown up on them. They pay my bills and are happy with the work I produce on them. It makes their life very easy when they want to make a change. 
-
-You give up optimisation for convenience and if you are happy with that, I am willing to help you. It is my job top make you a happy client!
-
-## But I can hand code, I don't need convenience
-
-So I tried out Hugo static site builder and this is what I discovered:
-
-<ul>
-<li>Everything i wanted on my portfolio site in Wordpress, I could do in Hugo 3 times faster</li>
-<li>Templating is very easy</li>
-<li>If you are building for yourself, don't bother with a headless CMS as it will slow you down</li>
-<li>Hugo is fast, how fast? Chuck Norris fast!</li>
-<li>I finally managed to get the holy grail 100 pagespeed insights score, with no effort and NO PLUGINS! (Hugo does not have plugins)</li>
-</ul>
-
-Ok Yslow is letting me down with a dismal 96 out of 100 but that is down to analytics.
-
-## Would I use it on client sites?
-
-My clients are local businesses. They don't ask for much. Mostly static pages with a contact form. For these clients I can certainly say yes to static websites. Moreover I am usually the one doing the updates.
-
-The clients that prefer to manage their websites are usually e-commerce clients and then I use Wordpress or Magento.
-
-## The benefits of static websites
-
-1. **Speed** - Database driven websites need to make a call to the database before a page is served, this takes time as the pages do not actually exist until they are required.
-2. **Security** - No database means, no hacks! Static websites can be managed using markdown files and then compiled, for the less tech savvy you can attach a headless cms like forestry which lives on a different server.
-3. **Scalability** -  Hugo can build thousands of pages in seconds, it is the fastest static site generator available.
-
-## What are the downsides of a static site generator?
-
-Static websites present data that does not change much, they are not dynamic which means if you are looking to build the next Facebook or perhaps an e-commerce website with configurable products, then a static website is not for you.
-
-If you want a portfolio, blog or a basic brochure website then I can say that ANY cms is overkill.
-
-## But I want to create pages through a CMS
-
-Your fine! Netlify has its own CMS which connects to Hugo, and I personally use [Forestry](https://forestry.io)
-
-## What about data driven forms?
-
-You can build your own forms and add a special tag through netlify that will send the forms for you, there are dozens of providers that specialise in static site forms. You are not alone!
-
-## I want visitors to be able to search my site, isn't that a dynamic feature?
-
-Indeed it is, usually. But you can add site search features to  a static website. You can use Google custom search or take a look at my own website where I have implemented a javascript search that works very well indeed!
-
-
+* **Use a good webhost** - A good webhost will include malware scanners, up to date PHP, security and good customer support. Some things will be added extras but they should at least be available. At pixaful we use SiteGround. It means we can concentrate on our business and worry less about the security of our clients websites.
+* **Install a firewall** - A firewall will ensure that most bad guys will not bother you. Hackers, especially hackers of content management systems are looking for easy pickings by scanning for know vunerabilities. A firewall is your first line of defence and will protect you from most types of attacks.
+* **Keep your CMS updated** - Wordpress we are looking at you! However no matter what CMS you are on, you should keep it updated. We prefer to wait a few days after the update has been released in case there are any bugs and 0 day vunerabilities have been caught.
+* **Keep your plugins updated** - Wordpress uses the term plugins, but your CMS may use addons, modules or anything else! The point is make sure any extra features you have included from third party suppliers get updated.
+* **Keep your themes updated** - Themes are a target for hackers because they contain scripts that go out of date very quickly and can be exploited. If you buy a theme from a marketplace then make sure you check it for updates.
+* **Keep regular backups** - Even if you do not do any of the above and decide to totally ignore my advice, your ass can be saved with a backup. You will learn from it and then probably implement the previous 5 steps! Backups can be taken on a server and offline. I recommend you do both regularly.
+* **Use strong passwords** - And never use them twice! I use a password manager called 1Password. I don't know my passwords and thats the way I like it, though making paypal payments can get annoying but definately worth the extra hassle!
+* **Install an SSL certificate** - These days these are free. Most good hosts offer Let's Encrypt SSL at the very least. This prevents hackers from intercepting these pieces of information and using them to their advantage.
+* **Keep old domains** - If you have used a domain for any type of sensititive information, its best to hang onto it. Hackers don't even have to try if you decide to let go of a domain. For a mere $10 purchase and a quick google search they can register a domain and look up lost passwords and have all the access they need.
 
