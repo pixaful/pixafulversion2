@@ -1,0 +1,47 @@
+/* Basic Blue Button with arrow on hover */
+a.btn {
+  background: #41c4d5;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: padding 0.2s ease-in-out;
+  transition: padding 0.2s ease-in-out;
+  padding: 11px 36px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+a.btn:hover {
+  padding-left: 26px;
+  padding-right: 46px;
+  color: #fff;
+}
+
+a.btn:hover:after {
+  opacity: 1;
+  right: 16px;
+}
+
+a.btn:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  width: 20px;
+  height: 17px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-image: url("/img/btn-arrow.png");
+  background-repeat: no-repeat;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+a.btn:focus, a.btn:active {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+/*# sourceMappingURL=button.css.map */
