@@ -9,7 +9,7 @@
           <h2 class="uk-modal-title">Let's discuss {{ .Params.FormTitle }}</h2>
           <p>If you would like to discuss {{ .Params.FormTitle }} or any other topic with us, we are ready to help!</p>
           <p>Complete the form below and we will get back in touch with you within 24 hours.</p>
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
             <fieldset class="uk-fieldset">     
                 <div class="uk-margin">
                     <input class="uk-input" type="text" placeholder="Name">
