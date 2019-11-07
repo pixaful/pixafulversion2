@@ -146,7 +146,7 @@ var expCallback = function () {
 
 var onloadCallback = function () {
   var widget = grecaptcha.render(document.getElementById("re-captcha"), {
-    'sitekey': "6LcBS8AUAAAAAFm0Bwx7RzdUosfk79JzQGUk8eKb", // Sitekey, Retrieving from reCaptcha
+    'sitekey': "6Le1jsEUAAAAAIEtqEuCTQp4XCuhrZGXxoRptFya", // Sitekey, Retrieving from reCaptcha
     'theme': "light",
     'callback': actCallback,
     'expired-callback': expCallback,
