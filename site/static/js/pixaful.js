@@ -136,19 +136,3 @@ $(window).on('load', function () { // makes sure the whole site is loaded
   $('#preloader').delay(150).fadeOut('slow'); // will fade out the white DIV that covers the website. 
   $('body').delay(150).css({ 'overflow': 'visible' });
 })
-  var actCallback = function (response) {
-  $('#submitreg').prop("disabled", false);
-  $('#re-captcha').remove();
-};
-var expCallback = function () {
-  $('#submitreg').prop("disabled", true);
-};
-
-var onloadCallback = function () {
-  var widget = grecaptcha.render(document.getElementById("re-captcha"), {
-    'sitekey': "6Le1jsEUAAAAAIEtqEuCTQp4XCuhrZGXxoRptFya", // Sitekey, Retrieving from reCaptcha
-    'theme': "light",
-    'callback': actCallback,
-    'expired-callback': expCallback,
-  });
-}
