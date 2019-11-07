@@ -21,7 +21,7 @@ tags = "Online Marketing"
 
 If you are a local business and are having trouble getting your website to rank, read on!
 
-I have been developing and marketing websites for local bsuiensses for 8 years. As part of my development process for any local business I always make SEO part of the package.
+I have been developing and marketing websites for local businesses for 8 years. As part of my development process I always make SEO part of the package.
 
 SEO is expensive, both in time and money. If you have time it is something you can do yourself (this guide will help you). 
 
