@@ -11,27 +11,28 @@
           <p>Complete the form below and we will get back in touch with you within 24 hours.</p>
           <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
             <fieldset class="uk-fieldset">     
-                <div class="uk-margin">
-                    <input class="uk-input" type="text" placeholder="Name">
-                </div>
-                <div class="uk-margin">
-                  <input class="uk-input" type="text" placeholder="Email Address">
+              <div class="uk-margin">
+                  <input class="uk-input" type="text" name="Name" placeholder="Name">
+              </div>
+              <div class="uk-margin">
+                <input class="uk-input" type="text" name="Email" placeholder="Email Address">
+            </div>
+      
+      
+              <div class="uk-margin">
+                  <textarea class="uk-textarea" rows="5" name="Message" placeholder="Message"></textarea>
               </div>
         
-        
-                <div class="uk-margin">
-                    <textarea class="uk-textarea" rows="5" placeholder="Message"></textarea>
-                </div>
-          
-              
-              <div>
-                <label><input class="uk-checkbox" type="checkbox" required></label> <span class="uk-text-small">I agree to receiving email and marketing communications</span>
-              </div>
-              <div data-netlify-recaptcha="true"></div>
-              <button class="uk-margin-top uk-button uk-button-primary" type="submit">Submit</button>
             
-             
-            </fieldset>
+            <div>
+              <label><input class="uk-checkbox" type="checkbox" required></label> <span class="uk-text-small">I agree to receiving email and marketing communications</span>
+            </div>
+          
+        <div data-netlify-recaptcha="true"></div>
+    <button class="uk-margin-top uk-button uk-button-primary" type="submit">Submit</button>
+          
+           
+          </fieldset>
         </form>
          
       </div>

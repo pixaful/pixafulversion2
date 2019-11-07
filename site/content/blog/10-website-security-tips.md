@@ -21,7 +21,7 @@ tags = "Website Security"
 
 Website security is a serious subject. Websites are being hacked on a daily basis. You can protect your digital assets  by following a few simple rules.
 
-* **Use a good webhost** - A good webhost will include  malware scanners, up to date PHP and security.  Some services are addons but they should at least be available.  At Pixaful we use SiteGround....
+* **Use a good webhost** - A good webhost will include  malware scanners, up to date PHP and security.  Some services are addons but they should at least be available.  At Pixaful we use SiteGround.
 * **Install a firewall** - A firewall will ensure that  most bad guys will not bother you. Hackers are looking easy pickings by scanning for  know vulnerabilities. A firewall is your first line of defence and will  protect you from most types of attacks.
 * **Keep your CMS updated** - Wordpress we are looking at  you! But no matter what CMS you are on, you should keep it updated.  
 * **Keep your plugins updated** - Wordpress uses the term plugins, but your CMS may use addons, modules or anything else! The point is make sure any extra features you have included from third party suppliers get updated.
