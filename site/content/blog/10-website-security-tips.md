@@ -21,9 +21,9 @@ tags = "Website Security"
 
 Website security is a serious subject. Websites are being hacked on a daily basis. You can protect your digital assets  by following a few simple rules.
 
-* **Use a good webhost** - A good webhost will include malware scanners, up to date PHP, security and good customer support. Some things will be added extras but they should at least be available. At pixaful we use SiteGround. It means we can concentrate on our business and worry less about the security of our clients websites.
-* **Install a firewall** - A firewall will ensure that most bad guys will not bother you. Hackers, especially hackers of content management systems are looking for easy pickings by scanning for know vunerabilities. A firewall is your first line of defence and will protect you from most types of attacks.
-* **Keep your CMS updated** - Wordpress we are looking at you! However no matter what CMS you are on, you should keep it updated. We prefer to wait a few days after the update has been released in case there are any bugs and 0 day vunerabilities have been caught.
+* **Use a good webhost** - A good webhost will include  malware scanners, up to date PHP and security.  Some services are addons but they should at least be available.  At Pixaful we use SiteGround....
+* **Install a firewall** - A firewall will ensure that  most bad guys will not bother you. Hackers are looking easy pickings by scanning for  know vulnerabilities. A firewall is your first line of defence and will  protect you from most types of attacks.
+* **Keep your CMS updated** - Wordpress we are looking at  you! But no matter what CMS you are on, you should keep it updated.  
 * **Keep your plugins updated** - Wordpress uses the term plugins, but your CMS may use addons, modules or anything else! The point is make sure any extra features you have included from third party suppliers get updated.
 * **Keep your themes updated** - Themes are a target for hackers because they contain scripts that go out of date very quickly and can be exploited. If you buy a theme from a marketplace then make sure you check it for updates.
 * **Keep regular backups** - Even if you do not do any of the above and decide to totally ignore my advice, your ass can be saved with a backup. You will learn from it and then probably implement the previous 5 steps! Backups can be taken on a server and offline. I recommend you do both regularly.
