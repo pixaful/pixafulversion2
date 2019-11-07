@@ -19,7 +19,7 @@ tags = "Website Security"
 
 ## Boost your website security in 10 easy steps
 
-Intro paragraph goes here
+Website security is a serious subject. Websites are being hacked on a daily basis. You can protect your digital assets  by following a few simple rules.
 
 * **Use a good webhost** - A good webhost will include malware scanners, up to date PHP, security and good customer support. Some things will be added extras but they should at least be available. At pixaful we use SiteGround. It means we can concentrate on our business and worry less about the security of our clients websites.
 * **Install a firewall** - A firewall will ensure that most bad guys will not bother you. Hackers, especially hackers of content management systems are looking for easy pickings by scanning for know vunerabilities. A firewall is your first line of defence and will protect you from most types of attacks.
