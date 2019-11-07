@@ -67,3 +67,30 @@ Things to look for can be:
 * Missing internal linking
 * Missing XML sitemap
 
+There are other factors to consider when optimising your website. 
+
+SSL (secure sockets layer) is now a ranking factor according to Google. Even if your webiste isn't accepting online orders, you should get an SSL certificate.
+
+In 2019 most hosts provide free SSL certificates. An SSL certificate protects your visitors from a variety of attacks. It is not just e-commerce sites that need protecting. If your website has an much as a form, you need an SSL certificate.
+
+Pagespeed is also a ranking factor.  A good looking, well optimised  website is useless if it does not load in a reasonable time. Your visitors will leave.
+
+Wether you build your site yourself or have a website developer build it for you, make sure it is well optimised.
+
+**Promote your website**
+
+Finally, promote your website! If you write something you are proud of, share it and get your fans to do the same.
+
+Make sure the major search engines know about your page, get it indexed. Get some comments, likes and shares going on the page and start building some links.
+
+**Don't have time to promote your website?**
+
+If you would rather spend your time on more productive parts of your business then get in touch. We have a dedicated team of SEO guys and girls, both in-house and remote who live and breath SEO.
+
+We can help your business achieve more by creating a custom SEO strategy. We also provide a complete report of all work undertaken. 
+
+We offer a short trial contract of only 3 months for new clients. If you are not happy with our work you are welcome to walk away after 3 months. 
+
+We do not offer shorter SEO contracts. SEO is a long term investment and takes time to see real results.
+
+Ready to start? Use the contact form below!
