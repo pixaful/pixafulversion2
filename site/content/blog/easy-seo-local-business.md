@@ -1,16 +1,16 @@
 +++
 date = "2019-07-28T23:00:00+00:00"
-description = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
+description = "If you are a local business and are having trouble getting your website to rank, read on!"
 featured_image = "/v1571863809/seo.jpg"
 feed_image = ""
-ogdescription = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
+ogdescription = "If you are a local business and are having trouble getting your website to rank, read on!"
 ogimage = "https://res.cloudinary.com/pixaful/image/upload/v1571863809/seo.jpg"
-ogtitle = "What's up with static site generators?"
-summary = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
+ogtitle = "Easy SEO for local business - A step by step guide"
+summary = "If you are a local business and are having trouble getting your website to rank, read on!"
 title = "Easy SEO for local business - A step by step guide"
-twitterdescription = "Static site generators provide a clean, lean website without a database. Let's discuss how that can benefit you!"
+twitterdescription = "If you are a local business and are having trouble getting your website to rank, read on!"
 twitterimage = "/uploads/hugo-design.jpg"
-twittertitle = "Static Website Development - Should you bother?"
+twittertitle = "Easy SEO for local business - A step by step guide"
 webp_version = "/v1571863809/seo.jpg"
 tagColor = "#3de32c"
 tags = "Online Marketing"
@@ -46,4 +46,24 @@ SEO is very niche dependent. Some markets are easy to rank as they do much of th
 Other markets, for example web design, marketing or anything related to the web have a tough time! We need to put some real effort in to gain traction.
 
 That being said there is always a gap in every market that needs to be filled. 
+
+You will always find a gap in every market that needs to filling. You might need to dig a bit to uncover new sub markets in a saturated niche, but trust me, they there!
+
+You can use specialised tools to figure out what your competition is doing online. Moz, Semrush and ahrefs are a few examples. These tools can help you work out how many backlinks a competitors page has for a particular page. This is very useful when writing an article for a new site and can save you lots of time.
+
+**Optimise your website**
+
+If you have an existing website, then it's a good idea to scan it for any issues. 
+
+Things to look for can be:
+
+* URLS that are too long
+* Missing Header tags
+* Missing alt tags
+* Missing images
+* Underoptimised pages
+* Keyword stuffing
+* Missing meta
+* Missing internal linking
+* Missing XML sitemap
 
