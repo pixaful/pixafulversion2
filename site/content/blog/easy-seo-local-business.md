@@ -41,6 +41,11 @@ Keyword research is an ongoing task. You need to do it consistently so that you 
 
 **Check out your competition**
 
+ <picture>
+          <source width="1000" height="667" srcset="https://res.cloudinary.com/pixaful/image/upload/w_1000/v1573200988/competition.webp" type="image/webp" />
+          <img width="1000" height="667" src="https://res.cloudinary.com/pixaful/image/upload/w_1000/v1573200988/competition.jpg" alt="competition research" />
+     </picture>
+
 SEO is very niche dependent. Some markets are easy to rank as they do much of their work offline, or have lower marketing budgets. This means somebody with knowledge can outrank the competition without too much trouble.
 
 Other markets, for example web design, marketing or anything related to the web have a tough time! We need to put some real effort in to gain traction.
@@ -79,11 +84,21 @@ Wether you build your site yourself or have a website developer build it for you
 
 **Promote your website**
 
+ <picture>
+          <source width="1000" height="700" srcset="https://res.cloudinary.com/pixaful/image/upload/w_1000/v1573200553/promote-website.webp" type="image/webp" />
+          <img width="1000" height="700" src="https://res.cloudinary.com/pixaful/image/upload/w_1000/v1573200553/promote-website.jpg" alt="Promote your website" />
+     </picture>
+
 Finally, promote your website! If you write something you are proud of, share it and get your fans to do the same.
 
 Make sure the major search engines know about your page, get it indexed. Get some comments, likes and shares going on the page and start building some links.
 
 **Don't have time to promote your website?**
+
+ <picture>
+          <source width="1000" height="702" srcset="https://res.cloudinary.com/pixaful/image/upload/w_1000/v1573201522/no-time.webp" type="image/webp" />
+          <img width="1000" height="702" src="https://res.cloudinary.com/pixaful/image/upload/w_1000/v1573201522/no-time.jpg" alt="no time to promote business" />
+     </picture>
 
 If you would rather spend your time on more productive parts of your business then get in touch. We have a dedicated team of SEO guys and girls, both in-house and remote who live and breath SEO.
 
