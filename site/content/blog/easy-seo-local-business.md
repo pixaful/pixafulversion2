@@ -93,6 +93,10 @@ Finally, promote your website! If you write something you are proud of, share it
 
 Make sure the major search engines know about your page, get it indexed. Get some comments, likes and shares going on the page and start building some links.
 
+Use platforms like Facebook, Instagram and Linkedin to get the word out. You can pay for ads on search engines for specific pages. Offline advertising can work too.
+
+Just be sure to stay within the rules. Don't try any fly-by-night black hat tricks to game Google. They may work in the short term, but we don't recommend that you engage in them. 
+
 **Don't have time to promote your website?**
 
  <picture>
