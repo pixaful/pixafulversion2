@@ -1,12 +1,12 @@
 @import 'includes/normal.scss';
-@import 'includes/uikit';
+@import 'includes/uikit.scss';
 @import 'includes/button.scss';
 @import 'includes/owl.carousel.scss';
-@import 'includes/theme.default';
-@import 'includes/sm-simple';
-@import 'includes/sm-core-css';
-@import 'includes/hamburger';
-@import 'includes/cookies';
+@import 'includes/theme.default.scss';
+@import 'includes/sm-simple.scss';
+@import 'includes/sm-core-css.scss';
+@import 'includes/hamburger.scss';
+@import 'includes/cookies.scss';
 /* Preloader */
 
 #preloader {
@@ -35,6 +35,65 @@
   background-position: center;
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
+}
+
+.tags {
+  list-style: none;
+  margin: 0;
+  overflow: hidden; 
+  padding: 0;
+}
+
+.tags li {
+  float: left; 
+}
+
+.tag {
+  background: #eee;
+  border-radius: 3px 0 0 3px;
+  color: #999;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 0px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+  font-size:14px;
+}
+
+.tag::before {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
+  content: '';
+  height: 6px;
+  left: 10px;
+  position: absolute;
+  width: 6px;
+  top: 10px;
+}
+
+.tag::after {
+  background: #f8f8f8;
+  border-bottom: 13px solid transparent;
+  border-left: 10px solid #eee;
+  border-top: 13px solid transparent;
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.tag:hover {
+  background-color: crimson;
+  color: white;
+  text-decoration:none;
+}
+
+.tag:hover::after {
+   border-left-color: crimson; 
 }
 .padded {
   padding:20px;
