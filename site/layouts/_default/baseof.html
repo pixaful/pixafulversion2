@@ -43,6 +43,15 @@
   <meta property="og:site_name" content="Pixaful" />{{- end }}{{ $stylesheet := .Site.Data.webpack.main }}{{ with $stylesheet.css }}
   <link href="{{ relURL . }}" rel="stylesheet">{{ end }}
   <meta name="msvalidate.01" content="F409EC87685425B3913EFD12A41BE3A3" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152416360-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-152416360-1');
+  </script>
 <!-- Matomo -->
 <script type="text/javascript">
   var _paq = window._paq || [];
