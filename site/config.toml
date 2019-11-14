@@ -1,4 +1,4 @@
-baseurl = "https://www.pixaful.com"
+baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
 paginate = 3
