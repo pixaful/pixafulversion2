@@ -43,8 +43,12 @@
   <meta property="og:site_name" content="Pixaful" />{{- end }}{{ $stylesheet := .Site.Data.webpack.main }}{{ with $stylesheet.css }}
   <link href="{{ relURL . }}" rel="stylesheet">{{ end }}
   <meta name="msvalidate.01" content="F409EC87685425B3913EFD12A41BE3A3" />
+<<<<<<< HEAD
   <script>!function(){window;var e,t=document;e=function(){var e=t.createElement("script");e.type="text/javascript",e.defer=!0,e.src="https://cdn.endorsal.io/widgets/widget.min.js";var n=t.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n),e.onload=function(){NDRSL.init("5dcd5226a8f0d723b7deb84f")}},"interactive"===t.readyState||"complete"===t.readyState?e():t.addEventListener("DOMContentLoaded",e())}();</script>
       
+=======
+  <script>!function () { window; var e, t = document; e = function () { var e = t.createElement("script"); e.type = "text/javascript", e.defer = !0, e.src = "https://cdn.endorsal.io/widgets/widget.min.js"; var n = t.getElementsByTagName("script")[0]; n.parentNode.insertBefore(e, n), e.onload = function () { NDRSL.init("5dcd5226a8f0d723b7deb84f") } }, "interactive" === t.readyState || "complete" === t.readyState ? e() : t.addEventListener("DOMContentLoaded", e()) }();</script>
+>>>>>>> master
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152416360-1"></script>
   <script>
@@ -83,5 +87,5 @@
     <script src="{{ relURL . }}"></script>
   {{ end }}  */}}
 <script src="/js/pixaful.js" type="text/javascript"></script>
-
+</body>
 </html>
