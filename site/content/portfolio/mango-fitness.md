@@ -1,7 +1,7 @@
 +++
 date = "2019-07-18T23:00:00+00:00"
 title = "Mango Fitness"
-description = ""
+description = "Personal trainer for women and children required a membership website to manage her growing client base."
 featured_image = "/v1566978302/mango-fitness-main_dayncg.jpg"
 webp_version = "/v1566978302/mango-fitness-main_dayncg.webp"
 featured_image2 = "/v1566996590/mango-fitness-2_odidae.jpg"
