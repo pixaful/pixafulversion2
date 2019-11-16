@@ -1,28 +1,3 @@
-{{/*  {{ define "main" }}
-<main class="site-content">
-{{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
-{{ range $paginator.Pages }}
-<div class="uk-card uk-margin uk-card-body uk-card-default">
-   <img class="uk-align-left uk-margin-remove-adjacent"
-      src="{{ $.Site.Params.cloudinary_base_url }}/w_251{{ .Params.featured_image }}" alt="{{.Title}}" />
-   <div>
-      <div class="tagged uk-card-badge uk-label" style="background-color:{{ .Params.tagColor }}"> {{ with .Params.Tags }}
-         <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
-         {{ end }}</div>
-      <h2><a href="{{.Permalink }}">{{.Title}}</a></h2>
-      <small>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</small>
-
-      <p>{{.Summary}}</p>
-   </div>
-</div>
-{{ end }}
-{{ template "_internal/pagination.html" . }}
- </main> 
-{{ end }}
-   */}}
-<!doctype html>
-<html lang="{{ $.Site.Language.Lang }}">
-
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
