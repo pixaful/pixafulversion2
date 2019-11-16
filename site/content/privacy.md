@@ -1,6 +1,6 @@
 +++
 date = "2019-07-18T23:00:00+00:00"
-description = ""
+description = "Pixaful privacy policy - This privacy policy should be read alongside, and in addition to, our Terms and Conditions"
 featured_image = "/v1566910638/full-wax-main_ra3gw7.png"
 webp_version = "/v1566910638/full-wax-main_ra3gw7.webp"
 featured_image2 = "/v1566939500/full-wax-2_xwbcu4.jpg"
