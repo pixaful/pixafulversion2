@@ -20,8 +20,8 @@ twitterimage = ""
 twittersite = ""
 twittertitle = ""
 twitterurl = ""
-layout = "terms"
-draft = "true"
+layout = "contact"
+draft = "false"
 
 
 

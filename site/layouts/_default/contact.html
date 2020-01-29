@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<div class="topheader site-header">
+  <h1>{{ .Title }}</h1>
+</div>
+
+<main class="site-content">
+  <div class="singleproject">
+    <div class="featured">
+   
+      <div class="singlelegal">
+        <div class="singleintro" data-sticky-container data-sticky-for="1280">
+          <div class="sticky">
+            {{ partial "terms-intro" . }}
+          </div>
+        </div>
+        <div class="singlecontent">
+          <div class="sticker">
+
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</main>
+
+{{ end }}
